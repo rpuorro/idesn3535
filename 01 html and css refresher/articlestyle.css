@@ -159,7 +159,7 @@ background-color: #fff;
 .cities p {
   float: left;
   display: inline-block;
- width: 50%;
+ width: 100%;
   padding-left: 10px;
   font-family: sans-serif; helvetica;
 font-size: 12px;
@@ -204,9 +204,8 @@ width: 20%;
 
 
 #boston {
-display: inline-block;
 float: right;
-width: 45%;
+width: 50%;
 padding-left: 10px;
 padding-right: 10px
 }

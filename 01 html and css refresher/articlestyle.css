@@ -144,7 +144,7 @@ display: inline-block;
 
 
 
-.cities h2 {
+.citiesblog h2 {
 vertical-align: top;
 display: inline-block;
 padding-left: 10px;
@@ -156,7 +156,7 @@ font-weight: 300;
 background-color: #fff;
 }
 
-.cities p {
+.citiesblog p {
   float: left;
   display: inline-block;
  width: 100%;
@@ -167,7 +167,7 @@ font-weight: 300;
 
 }
 
-.cities h3 {
+.citiesblog h3 {
 padding: 2px;
 color: black;
 font-family: sans-serif; helvetica
@@ -209,6 +209,12 @@ width: 50%;
 padding-left: 10px;
 padding-right: 10px
 }
+
+#thumbnail {
+  display: inline-block;
+  width: 140px;
+}
+
 
 #feast {
 display: inline-block;

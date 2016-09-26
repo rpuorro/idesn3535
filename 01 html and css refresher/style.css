@@ -209,6 +209,7 @@ a.featured {
   margin-left: 5%;
   margin-right: 5%;
   float:left;
+  padding-top: 10px;
   text-decoration: none;
   color: #4fa800;
   font-family:  helvetica;
@@ -341,7 +342,7 @@ ul.gallery li a:hover {
   vertical-align: top;
   display: inline-block;
   padding-left: 10px;
-  margin: 0px;
+  margin: 10px;
   font-family: auto;
   color: #005695;
   font-size: 30px;
@@ -355,6 +356,7 @@ ul.gallery li a:hover {
   width: 80%;
   min-width: 200px;
   padding-left: 30px;
+  padding-top: 10px;
   padding-bottom: 10px;
   font-family: sans-serif; helvetica;
   font-size: 14px;
@@ -460,13 +462,12 @@ a.readmore:focus {
 
 #archive2 {
   -webkit-filter: grayscale(100%);
-  -webkit-transition: 1s easeInOutBack;
-;
+  -webkit-transition: 1s;
   -moz-filter:grayscale(100%);
-  -moz-transition: 1s easeInOutBack;
-;
+  -moz-transition: 1s;
   -o-filter: grayscale(100%);
-  -o-transition: .5s easeInOutBack;
+  -o-transition: 1s;
+
   margin: auto;
   margin-top: 10px;
   display: inline-block;
@@ -485,21 +486,20 @@ a.readmore:focus {
 
 #archive2:hover {
   -webkit-filter: grayscale(0%);
-  -webkit-transition: 1s easeInOutBack;
+  -webkit-transition: 1s;
   -moz-filter: grayscale(0%);
-  -moz-transition: 1s easeInOutBack;
+  -moz-transition: 1s;
   -o-filter: grayscale(0%);
-  -o-transition: 1s easeInOutBack;
+  -o-transition: 1s;
 }
 
 #archive3 {
   -webkit-filter: grayscale(100%);
-  -webkit-transition: 1s easeInOutBack
-;
+  -webkit-transition: 1s;
   -moz-filter:grayscale(100%);
-  -moz-transition: 1s easeInOutBack;
+  -moz-transition: 1s;
   -o-filter: grayscale(100%);
-  -o-transition: 1s easeInOutBack;
+  -o-transition: 1s;
   margin: auto;
   margin-top: 10px;
   display: inline-block;
@@ -518,11 +518,11 @@ a.readmore:focus {
 
 #archive3:hover {
   -webkit-filter: grayscale(0%);
-  -webkit-transition: 1s easeInOutBack;
+  -webkit-transition: 1s;
   -moz-filter: grayscale(0%);
-  -moz-transition: 1s easeInOutBack;
+  -moz-transition: 1s;
   -o-filter: grayscale(0%);
-  -o-transition: 1s easeInOutBack;
+  -o-transition: 1s;
 }
 /*
 #boston {
@@ -656,11 +656,11 @@ a.readmore:focus {
   padding-bottom: 10px;
   text-align: center;
   clear: left;
-  -webkit-transform: translate(-3em,0);
-  -moz-transform: translate(-3em,0);
-  -o-transform: translate(-3em,0);
-  -ms-transform: translate(-3em,0);
-  transform: translate(-3em,0);
+  -webkit-transform: translate(-1em,0);
+  -moz-transform: translate(-1em,0);
+  -o-transform: translate(-1em,0);
+  -ms-transform: translate(-1em,0);
+  transform: translate(-1em,0);
 }
 
 #bostonblog {

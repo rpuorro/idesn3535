@@ -24,25 +24,22 @@ ul.nav li {
 }
 
 
-ul.navli a {
+ul.nav li  {
   float: left;
   width: 140px;
   height: auto;
   padding: 0px;
-
-
-}
-
-ul.nav li a:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
   -webkit-transition: ease .5s;
   -moz-transition: ease .5s;
   -o-transition: ease .5s;
   transition: ease .5s;
+}
 
+ul.nav li:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 

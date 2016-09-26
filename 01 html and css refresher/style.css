@@ -30,6 +30,14 @@ ul.navli a {
   width: 100px;
   height: auto;
   padding: 0px;
+  -webkit-filter: brightness(1);
+  -moz-filter: brightness(1);
+  -o-filter: brightness(1);
+  filter: brightness(1);
+  -webkit-transition: ease .5s;
+  -moz-transition: ease .5s;
+  -o-transition: ease .5s;
+  transition: ease .5s;
 
 
 }
@@ -190,7 +198,11 @@ imgfullwidth {
 }
 
 .fade:hover {
-  opacity: 1;
+
+  opacity: 1
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
 }
 
 a.featured {
@@ -295,10 +307,12 @@ a.readmore:focus {
 */
 
 .gallery {
+  display: inline-block;
   margin: auto;
 }
 
 ul.gallery li {
+  display: inline-block;
   float: left;
   margin-left: 20%;
   width: 250px;
@@ -309,18 +323,20 @@ ul.gallery li {
 
 
 ul.gallery li a img {
+  display: inline-block;
   width: 250px;
   -webkit-transform: scale(1);
-  -moz-transform: scale(1);
+  -webkit-transition: 1s ease-in-out;
+  -moz--transform: scale(1);
+  -moz-transition: 1s ease-in-out;
   -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: ease-in-out .5s;
-  -moz-transition: ease-in-out .5s;
-  -o-transition: ease-in-out. 5s;
-  transition: ease-in-out .5s;
+  -o-transition: 1s ease-in-out;
+  position: relative;
+
 }
 
 ul.gallery li a:hover {
+  display: inline-block;
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -o-transform: scale(1.2);
@@ -554,13 +570,13 @@ a.readmore:focus {
 */
 
 #boston {
+  display: inline-block;
   -webkit-transform: scale(1);
   -webkit-transition: 1s ease-in-out;
   -moz--transform: scale(1);
   -moz-transition: 1s ease-in-out;
   -o-transform: scale(1);
   -o-transition: 1s ease-in-out;
-  display: inline-block;
   position: relative;
   float: right;
   clear: both;
@@ -571,6 +587,7 @@ a.readmore:focus {
 }
 
 #boston:hover {
+  display: inline-block;
   -webkit-transform: scale(1.2);
   -webkit-transition: 1s ease-in-out;
   -moz--transform: scale(1.2);

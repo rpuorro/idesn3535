@@ -4,7 +4,6 @@ body {
 
     margin: auto;
     width: 1366px;
-    height: 768px;
     background-color: #005695;
 }
 
@@ -12,22 +11,12 @@ body {
     margin: auto;
     display: inline-block;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    width: 100%;
     min-width: 200px;
-    clear: right;
     position: relative;
-}
-
-nav {
-    position: static;
-    width: 100%;
-    float: inherit;
-    margin: auto;
-    background-color: #fff;
+    width: inherit;
 }
 
 ul.nav li a {
-    float: left;
     width: 100px;
     list-style: none;
     -webkit-transition: ease 1s;
@@ -129,8 +118,8 @@ a.featured {
     text-decoration: none;
     color: #4fa800;
     font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 25px;
-    width: auto;
 }
 
 
@@ -222,13 +211,12 @@ a.readmore:focus {
   color: #005695;
   font-size: 30px;
   font-weight: 400;
-  background-color: #fff;
 }
 
 .cities p {
+    white-space: normal;
     float: left;
     margin: auto;
-  width: 80%;
   min-width: 200px;
   padding-left: 30px;
   padding-bottom: 10px;
@@ -246,9 +234,7 @@ a.readmore:focus {
 }
 
 #entrywrap {
-    border: solid 2px #8097A8;
-    background-color: #fff;
-    width: 100%;
+    box-sizing: border-box;
     margin-top: 20px;
     color: inherit;
     clear: left;
@@ -256,6 +242,14 @@ a.readmore:focus {
 
 }
 
+#entrywrapmobile {
+    background-color: #005695;
+    width: 500px;
+    margin-top: 20px;
+    color: inherit;
+    clear: left;
+    padding-bottom: 10px;
+}
 
 
 

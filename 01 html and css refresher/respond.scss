@@ -1,5 +1,26 @@
-
-  @media only screen and (max-width: 667px) {
-    body {
-    }
+@media screen and (max-width: 1000px) {
+  #boston {
+    display: inline-block
   }
+  #bostonblog {
+    display: none;
+
+  }
+  #mobilearchive {
+    display: none;
+  }
+
+  @media screen and (max-width: 667px) {
+
+    #archive1 {
+      display: none;
+    }
+    #archive2 {
+      display: none;
+    }
+    #archive3 {
+      display: none;
+    }
+
+  }
+}

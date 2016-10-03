@@ -3,18 +3,18 @@
     display: inline-block; }
 
   #bostonblog {
-    display: none; }
-
-  #mobilearchive {
     display: none; } }
-@media screen and (max-width: 1000px) and (max-width: 667px) {
-  #archive1 {
-    display: none; }
+  @media only screen and (max-width: 1000px) and (max-width: 667px) {
+    #bostonblog #mobilearchive {
+      display: none; } }
 
-  #archive2 {
+@media only screen and (max-width: 1000px) and (max-width: 667px) and (max-width: 667px) {
+  #bostonblog #archive1 {
     display: none; }
-
-  #archive3 {
+  #bostonblog #archive2 {
     display: none; } }
+  @media only screen and (max-width: 1000px) and (max-width: 667px) {
+    #bostonblog #archive3 {
+      display: none; } }
 
 /*# sourceMappingURL=respond.css.map */

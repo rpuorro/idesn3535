@@ -5,22 +5,25 @@
   #bostonblog {
     display: none;
 
-  }
-  #mobilearchive {
-    display: none;
-  }
+    @media only screen and (max-width: 667px) {
+      body {
+      }
+      #mobilearchive {
+        display: none;
+      }
 
-  @media screen and (max-width: 667px) {
+      @media screen and (max-width: 667px) {
 
-    #archive1 {
-      display: none;
+        #archive1 {
+          display: none;
+        }
+        #archive2 {
+          display: none;
+        }
+      }
+      #archive3 {
+        display: none;
+      }
     }
-    #archive2 {
-      display: none;
     }
-    #archive3 {
-      display: none;
-    }
-
   }
-}

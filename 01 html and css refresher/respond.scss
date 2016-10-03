@@ -1,29 +1,44 @@
 @media screen and (max-width: 1000px) {
-  #boston {
-    display: inline-block
-  }
-  #bostonblog {
+
+  #bostnblog {
     display: none;
 
-    @media only screen and (max-width: 667px) {
-      body {
-      }
-      #mobilearchive {
-        display: none;
-      }
+  }
+  #mobilearchive {
+    display: none;
+  }
+  #archive1 {
+    display: inline-block;
+  }
+  #archive2 {
+    display: inline-block;
+  }
+  #archive3 {
+    display: inline-block;
+  }
+  @media screen and (max-width: 667px) {
 
-      @media screen and (max-width: 667px) {
-
-        #archive1 {
-          display: none;
-        }
-        #archive2 {
-          display: none;
-        }
-      }
-      #archive3 {
-        display: none;
-      }
+    #bostonblog {
+      display: inline-block;
     }
+
+    #archive1 {
+      display: none;
+    }
+    #archive2 {
+      display: none;
+    }
+    #archive3 {
+      display: none;
+    }
+
+    #boston {
+      display: none;
+    }
+    .cities p {
+      font-size: 15px;
+      margin: 0;
+
     }
   }
+}

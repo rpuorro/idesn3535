@@ -1,0 +1,45 @@
+@media screen and (max-width: 1500px) {
+  #bostonblog {
+    display: none; }
+
+  #boston {
+    display: block; }
+
+  li {
+    display: inline-block; }
+
+  ul.nav li a {
+    width: 100px; }
+
+  .navlogo {
+    display: inline-block; }
+
+  ul {
+    display: block; }
+
+  li a {
+    width: 100px; } }
+@media screen and (max-width: 1500px) and (max-width: 667px) {
+  #bostonblog {
+    display: block; }
+
+  #boston {
+    display: none; }
+
+  #archive1 {
+    display: none; }
+
+  #archive2 {
+    display: none; }
+
+  #archive3 {
+    display: none; } }
+@media screen and (max-width: 1500px) {
+  li {
+    display: none; }
+
+  p.cities {
+    margin: auto;
+    padding: 20px; } }
+
+/*# sourceMappingURL=multiscreen.css.map */

@@ -1,27 +1,17 @@
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
   #bostonblog {
     display: none; }
 
   #boston {
-    display: block; }
-
-  li {
+    position: relative;
     display: inline-block; }
 
-  ul.nav li a {
-    width: 100px; }
-
-  .navlogo {
-    display: inline-block; }
-
-  ul {
-    display: block; }
-
-  li a {
-    width: 100px; } }
-@media screen and (max-width: 1500px) and (max-width: 667px) {
+  #entrywrap {
+    position: absolute;
+    margin: auto; } }
+@media screen and (max-width: 700px) {
   #bostonblog {
-    display: block; }
+    display: inline-block; }
 
   #boston {
     display: none; }
@@ -33,9 +23,6 @@
     display: none; }
 
   #archive3 {
-    display: none; } }
-@media screen and (max-width: 1500px) {
-  li {
     display: none; }
 
   p.cities {

@@ -19,8 +19,34 @@
     font-weight: 400; }
 
   p {
-    padding: 20px; } }
+    padding: 20px; }
+
+  #archiveblog {
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    float: right;
+    width: 30%;
+    background-color: #fff;
+    white-space: normal; } }
 @media screen and (max-width: 2000px) and (max-width: 1024px) {
+  #archiveblog {
+    display: none; }
+
+  #entrywrapblog {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%; }
+
+  .sidebar {
+    display: none; }
+
+  .sidebar p {
+    display: none; }
+
   #bostonblog {
     display: none; }
 
@@ -33,6 +59,16 @@
 
   ul.nav li a {
     display: inline-block; }
+
+  ul.gallery li {
+    float: left;
+    width: 150px;
+    margin: auto;
+    list-style: none;
+    clear: right; }
+
+  ul.gallery li a img {
+    width: 150px; }
 
   .navlogo {
     width: 180px;
@@ -96,7 +132,7 @@
 
   #archive3 {
     display: none; } }
-@media screen and (max-width: 2000px) and (max-width: 1024px) and (max-width: 667px) {
+@media screen and (max-width: 2000px) and (max-width: 1024px) and (max-width: 667px) and (min-width: 375px) {
   #bostonblog {
     display: inline-block; }
 

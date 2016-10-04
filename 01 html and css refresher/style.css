@@ -157,6 +157,7 @@ a.featured {
 
 .gallery {
   margin: auto;
+    overflow: visible;
 }
 
 ul.gallery li {
@@ -164,7 +165,7 @@ ul.gallery li {
   width: 220px;
   margin: 0;
   list-style: none;
-
+    clear: right;
 }
 
 
@@ -449,23 +450,25 @@ width: 440px;
 
 .sidebar {
   background-color: #fff;
+filter: opacity(.9);
+    position: relative;
+    top: 5%;
+    float: right;
+    width: 17%;
 }
 
 /*noinspection CssInvalidPropertyValue,CssInvalidPropertyValue,CssInvalidPropertyValue,CssInvalidPropertyValue*/
 .sidebar p {
-  float: left;
+
   display: inline-block;
   padding-bottom: 10px;
-  width: 100%;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: #8097A8;
   font-size: 12px;
   font-weight: 400;
   text-decoration: none;
   clear: left;
-  color: #005695;
-  background-color: #fff;
+    width: 80%;
+    background-color: #fff;
   -webkit-transition: background 1s ease;
   color 0.5s linear;
   -moz-transition: background 1s ease;
@@ -478,12 +481,10 @@ width: 440px;
 
 .sidebar p:hover,
 .sidebar p:focus {
-
   text-decoration: none;
   padding-bottom: 10px;
-
-  text-align: center;
-  clear: left;
+ width: 80%;
+clear: left;
   color: #005695;
   background-color: #CFD8DC;
 }
@@ -523,7 +524,6 @@ width: 440px;
   min-width: 200px;
   max-width: auto;
   background-color: #005695;
-
   overflow: hidden;
 }
 
@@ -540,10 +540,8 @@ width: 440px;
   position: absolute;
 margin-top: 10px;
   float: right;
-  width: 17%;
-  height: 90%;
+  width: 20%;
   background-color: #fff;
-  ;
   white-space: normal;
 }
 

@@ -20,7 +20,83 @@
 
   p {
     padding: 20px; } }
-@media screen and (max-width: 2000px) and (max-width: 667px) {
+@media screen and (max-width: 2000px) and (max-width: 1024px) {
+  #bostonblog {
+    display: none; }
+
+  #boston {
+    position: relative;
+    display: inline-block; }
+
+  .dropdown {
+    display: none; }
+
+  ul.nav li a {
+    display: inline-block; }
+
+  .navlogo {
+    width: 180px;
+    display: inline-block;
+    position: absolute;
+    padding-right: 20px;
+    float: left;
+    background-color: #fff;
+    max-width: 100%; }
+
+  ul {
+    display: inline-block;
+    width: 100%; }
+
+  li {
+    display: inline-block; }
+
+  li a {
+    display: inline-block; }
+
+  a.readmore {
+    display: inline-block;
+    width: 60%;
+    font-size: 32px;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: left;
+    border: none;
+    background-color: #4fa800; }
+
+  a.readmore:hover,
+  a.readmore:focus {
+    display: inline-block;
+    width: 60%;
+    font-size: 32px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: left;
+    border: none; }
+
+  #mobilearchive {
+    display: inline-block;
+    color: #fff;
+    width: 85%;
+    position: absolute;
+    top: 65%;
+    font-size: 15px; }
+
+  #archive1 {
+    display: none; }
+
+  #archive2 {
+    display: none; }
+
+  #archive3 {
+    display: none; } }
+@media screen and (max-width: 2000px) and (max-width: 1024px) and (max-width: 667px) {
   #bostonblog {
     display: inline-block; }
 

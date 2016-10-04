@@ -60,14 +60,14 @@ ul.nav li a:hover {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #fff}
+.dropdown-content a:hover {background-color: #4fa800}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #fff;
+    background-color: #4fa800;
 }
 h2 {
     display: block;
@@ -490,7 +490,9 @@ width: 440px;
 
 
 #bostonblog {
-  float: right;
+  margin-left: 0;
+    margin-right: 0;
+    position: relative;
   width: 100%;
 }
 

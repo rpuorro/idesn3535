@@ -56,7 +56,7 @@ function Submit() {
     }
     if (fullname !='' && email !='' && password !='') {
         document.getElementById("formcontent").innerHTML = "form submitted successfully";
-        
+
     }
 }
 

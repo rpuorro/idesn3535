@@ -5,22 +5,6 @@
 
 
 
-
-
-// function checkForm(form) {
-//     if (form.name.value == "") {
-//         alert("error!");
-//         form.inputfield.focus();
-//         return false;
-//     }
-//     var re = /^ [ \w ] + $/;
-//
-//     if (!re.test(form.inputfield.value))
-//         alert("error!");
-//     form.inputfield.focus();
-//     return false;
-// }
-//
 function testResults (form) {
     var TestVar = form.fullname.value;
     alert ("You typed: " + TestVar);

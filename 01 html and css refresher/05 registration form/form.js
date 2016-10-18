@@ -52,9 +52,3 @@ function Submit() {
             document.getElementById("message").innerHTML = "form submitted successfully";
         }}
 
-function showMessage(){
-    var message = document.getElementById("fullname").value;
-    document.getElementById('write_message').innerHTML= message;
-    visible();
-    return false;
-}

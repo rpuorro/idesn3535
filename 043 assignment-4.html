@@ -47,6 +47,14 @@ If you have any questions, please send Saul a message through Slack (http://baiz
     </head>
     <body>
 
+    .list {
+    font-size: 32px;
+    }
+
+
+
+
+
     <script type="text/javascript">
         var w = window.innerWidth
                 || document.documentElement.clientWidth
@@ -70,10 +78,10 @@ If you have any questions, please send Saul a message through Slack (http://baiz
             MADE WITH <3 AND JAVASCRIPT
 
         <p>Brackets has <script type="text/javascript">
-            var x = 10000;
-            var y = x * x;
-            var z = y / 5;
-            document.write( z );
+            var number_users= 10000*10000/5;
+          //  var y = x * x;
+           // var z = y / 5;
+            document.write( number_users );
                     </script>
                     users!</p>
 
@@ -203,6 +211,14 @@ If you have any questions, please send Saul a message through Slack (http://baiz
             is in a "full size" editor.
         </p>
 
+
+
+
+
+
+
+
+
         <!--
             LIVE PREVIEW
         -->
@@ -264,6 +280,10 @@ If you have any questions, please send Saul a message through Slack (http://baiz
             color from "transparent" to "hotpink". If you have Brackets and your browser running side-by-side, you
             will see your changes instantly reflected in your browser. Cool, right?
         </samp>
+
+
+
+
 
         <p class="note">
             Today, Brackets only supports Live Preview for HTML and CSS. However, in the current version, changes to
@@ -338,16 +358,24 @@ If you have any questions, please send Saul a message through Slack (http://baiz
         <script type="text/javascript">
             document.write( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum, nibh a auctor tincidunt, ipsum mi lobortis nulla, id tempor risus leo viverra magna. Quisque nunc ligula, accumsan rutrum ipsum et, pretium ultricies lorem. Mauris tristique faucibus justo nec ornare. Nulla interdum, lectus ac fermentum efficitur, lorem neque vehicula diam, ac fringilla elit diam vel odio. Suspendisse id metus dui. Donec non mauris ac nulla malesuada vestibulum vitae in erat. Sed consectetur nisl vitae metus maximus convallis.' )
             </script>
-        <ul>
-            <li><a href="http://brackets.io">Brackets.io</a></li>
-            <li><a href="http://blog.brackets.io">Brackets Team Blog</a></li>
-            <li><a href="https://github.com/adobe/brackets">Brackets on GitHub</a></li>
-            <li><a href="https://brackets-registry.aboutweb.com">Brackets Extension Registry</a></li>
-            <li><a href="https://github.com/adobe/brackets/wiki">Brackets Wiki</a></li>
-            <li><a href="https://groups.google.com/forum/#!forum/brackets-dev">Brackets Developer Mailing List</a></li>
-            <li><a href="https://twitter.com/brackets">@brackets on Twitter</a></li>
-            <li>Chat with Brackets developers on IRC in <a href="http://webchat.freenode.net/?channels=brackets&uio=d4">#brackets on Freenode</a></li>
+
+
+    <div class="list">
+    <ul>
+            <li><a href ="">jeans</a></li>
+            <li><a>shirt </a></li>
+            <li><a>neclace</a></li>
+            <li><a>hat</a></li>
+            <li><a>watch</a></li>
+            <li><a>shoes</a></li>
+
         </ul>
+<script>
+        document.getElementByClassName('list') .onclick =function(){
+        alert ('clicked on link');
+        }
+</script>
+    </div>
 
         <script type="text/javascript">
 
@@ -361,7 +389,7 @@ If you have any questions, please send Saul a message through Slack (http://baiz
 
     <script type="text/javascript">
 
-        document.body.style.backgroundColor = "yellow";
+        document.body.style.backgroundColor = "white";
     </script>
 
 

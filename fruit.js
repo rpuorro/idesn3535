@@ -7,3 +7,6 @@ Array.prototype.random = function (length) {
 var fruit = ['strawberry', 'mulberry', 'tangerine', 'overpriced organic grapes', 'grape soda', 'lime'];
 var chosen_fruit = fruit.random(fruit.length);
 document.write("<p>" + chosen_fruit + "</p>");
+
+
+

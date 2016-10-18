@@ -73,14 +73,22 @@ cursor: pointer;
 }
 #errorBox{
 
-    color: #8097A8;
+    color: #FFFFFF;
     font-size: 18px;
+    font-weight: 400;
 }
-#formcontent {
+#message {
+    margin:auto;
+
     height: 200px;
-    width: 200px;
-    float: left;
+    width: 500px;
     background-color: #005695;
     color: #fff;
 
+}
+
+input;button {
+    background-color: lightcoral;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
 }

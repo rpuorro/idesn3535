@@ -13,53 +13,46 @@
         <div>
             <h2 class="form_title">Sign up and receive 25% off your next meal!</h2>
         </div>
-        <!--Form  start-->
         <div id="form_name">
             <div class="firstnameorlastname">
                 <form name="form" >
                     <div id="errorBox"></div>
-                    <input type="text" name="Name" value="" placeholder="First Name"  class="input_name" >
+                    <input type="text" name="Name" value="" id ="fullname" placeholder="Full Name"  class="input_name" >
 
-            <div id="email_form">
-                <input type="text" name="Email" value=""  placeholder="Your Email" class="input_email">
-            </div>
+                    <div id="email_form">
+                        <input type="text" name="Email" value=""  placeholder="Your Email" class="input_email">
+                    </div>
 
-            <div id="password_form">
-                <input type="password" name="Password" value=""  placeholder="New Password" class="input_password">
-            </div>
+                    <div id="password_form">
+                        <input type="password" name="Password" value=""  placeholder="Password" class="input_password">
+                    </div>
                     <p class="favoritecolor">What's your favorite color?</p>
 
                     <div id="radio_button">
-                        <input type="radio" name="radiobutton" value="#005695">
+                        <input type="radio" name="radiobutton" onClick="radiocolor('blue')" value="#005695">
                         <label >#005695</label>
                         &nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="radiobutton" value="#1dbcbd">
+                        <input type="radio" name="radiobutton" onClick="radiocolor('teal')" value="#1dbcbd">
                         <label >#1dbcbd</label>
-                        <input type="radio" name="radiobutton" value="#485B6E">
+                        <input type="radio" name="radiobutton" onClick="radiocolor('slate')" value="#485B6E">
                         <label >#485B6E</label>
                         &nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="radiobutton" value="#E65847">
+                        <input id="lastradiobutton" name="radiobutton" type="radio"  onClick="radiocolor('cadmiumred')" value="red">
                         <label >#E65847</label>
+
                     </div>
 
-            <div>
-                <p id="sign_user" onClick="Submit()">Sign Up </p>
+                    <div>
+
+                    </div>
+                        <p id="sign_user" onclick="Submit(); show_message()">SUBMIT</p>
+                </form>
+                <div id="message"></div>
             </div>
-                    <div id="formcontent"></div>
-            </form>
         </div>
-        <!--form ends-->
-    </div>
     </div>
 
 </div>
 </body>
 </html>
 
-<!--<div class="container">-->
-<!--<form method ="post" action="/register">-->
-<!--<div class= "name">-->
-<!--<label for="name" class="required">Full Name</label>-->
-<!--<input type="text" placeholder="enter your name" name="name" id="name"-->
-<!--required title="please enter your name">-->
-<!--</div>-->

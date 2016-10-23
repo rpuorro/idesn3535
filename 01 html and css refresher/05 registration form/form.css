@@ -62,7 +62,7 @@ padding:5px;
 #radio_button{
 padding:10px 0 0 0;
 }
-#sign_user{
+.sign_user{
 font-size:14px;
 color:#FFF;
 text-align:center;
@@ -84,10 +84,4 @@ cursor: pointer;
     background-color: #005695;
     color: #fff;
 
-}
-
-input;button {
-    background-color: lightcoral;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #fff;
 }

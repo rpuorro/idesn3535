@@ -2,7 +2,7 @@
  * Created by rickypuorro on 10/14/16.
  */
 
-
+jQuery(":input").css('border', '5px dotted purple') ;
 
 
 function radiocolor(color) {
@@ -20,15 +20,23 @@ function radiocolor(color) {
         } else if (color == "cadmium") document.body.style.backgroundcolor = "yellow";
     }
 
-function Submit() {
-        var fullname = document.form.Name.value.length,
-            email = document.form.Email.value.length,
+function validate_form_data() {
+    console.log("The user has submitted the form.");
+
+
+
+    var fullname = document.form.Name.value.length;
+   document.getElementById('fullname');
+    console.log(fullname.value);
+
+            email = document.form.Email.value.length;
             password = document.form.Password.value.length;
 
 
         if (fullname < 2) {
             document.form.Name.focus();
             document.getElementById("errorBox").innerHTML = "name must be longer than 2 characters";
+
             return;
         }
 
@@ -51,4 +59,3 @@ function Submit() {
         if (fullname != '' && email != '' && password != '') {
             document.getElementById("message").innerHTML = "form submitted successfully";
         }}
-

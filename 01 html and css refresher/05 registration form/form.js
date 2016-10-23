@@ -6,20 +6,22 @@ jQuery(":input").css('border', '5px dotted purple') ;
 
 
 function radiocolor(color) {
-        if (color == "blue") {
-            document.body.style.backgroundColor = "#005695";
-            return false;
+    if (color == "blue") {
+        document.body.style.backgroundColor = "#005695";
+        return false;
 
-        } else if (color == "teal") {
-            document.body.style.backgroundColor = "#1dbcbd";
-            return false;
-        } else if (color == "slate") {
-            document.body.style.backgroundColor = "#485b6e";
-            return false;
+    } else if (color == "teal") {
+        document.body.style.backgroundColor = "#1dbcbd";
+        return false;
+    } else if (color == "slate") {
+        document.body.style.backgroundColor = "#485b6e";
+        return false;
 
-        } else if (color == "cadmium") document.body.style.backgroundcolor = "yellow";
+
+    } else if (color == "cadmiumred");{
+        document.body.style.backgroundcolor = "#ddd";
     }
-
+}
 function validate_form_data() {
     console.log("The user has submitted the form.");
 
@@ -29,11 +31,10 @@ function validate_form_data() {
    document.getElementById('fullname');
     console.log(fullname.value);
 
-            email = document.form.Email.value.length;
-            password = document.form.Password.value.length;
+    var email = document.form.Email.value.length;
+           var password = document.form.Password.value.length;
 
-
-        if (fullname < 2) {
+        if($("fullname").val() < 2) {
             document.form.Name.focus();
             document.getElementById("errorBox").innerHTML = "name must be longer than 2 characters";
 

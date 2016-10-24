@@ -2,6 +2,7 @@
 body{
 font-family:Tahoma, Geneva, sans-serif;
 }
+
 #container{
 width:550px;
 background-color:#005695;
@@ -84,4 +85,19 @@ cursor: pointer;
     background-color: #005695;
     color: #fff;
 
+}
+
+
+.radio_blue {
+    background-color: #005695;
+}
+
+#radio_teal {
+    background-color: #1dbcbd;
+}
+#radio_slate {
+background-color: #485B6E;
+}
+#radio_red {
+    background-color: #E65847;
 }

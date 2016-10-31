@@ -73,10 +73,11 @@ margin-top:10px;
 cursor: pointer;
 }
 #errorBox{
-
-    color: #FFFFFF;
+    background-color: #fff;
+    margin:5px;
+    color: #dd0000;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
 }
 #message {
     margin:auto;
@@ -93,7 +94,7 @@ cursor: pointer;
 }
 
 #radio_teal {
-    background-color: #1dbcbd;
+    background-color: #E65847;
 }
 #radio_slate {
 background-color: #485B6E;

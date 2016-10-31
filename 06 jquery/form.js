@@ -48,7 +48,7 @@ function validate_form_data() {
         if (fullname < 2)  {
             console.log("i got here");
            $("#fullname").focus();
-            $("#errorBox").html ("name must be longer than 2 characters");
+            $("#errorBox").hide().html ("HEY!!!! name must be longer than 2 characters").slideDown(500);
 
             return;
         }

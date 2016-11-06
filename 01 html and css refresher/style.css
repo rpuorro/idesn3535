@@ -39,7 +39,6 @@ ul.nav li a:hover {
 }
 
 .dropdown {
-    background-color: none;
     position: absolute;
     margin-left: 60%;
     z-index: 15;
@@ -202,13 +201,13 @@ a.readmore {
   padding-top: 10px;
   padding-bottom: 10px;
   -webkit-transition: background 1s ease;
-  color 0.5s linear;
+  color: 0.5s linear;
   -moz-transition: background 1s ease;
-  color 0.5s linear;
+  color: 0.5s linear;
   -o-transition: background 1s ease;
-  color 0.5s linear;
+  color: 0.5s linear;
   transition: background 1s ease;
-  color 0.5s linear;
+  color: 0.5s linear;
   font-size: 15px;
   text-align: center;
 
@@ -309,7 +308,7 @@ color: #fff ;
   display: inline-block;
     position: absolute;
     left: 0%;
-    top: 52%;
+    top: 40%;
   background-color: #fff;
 width: 440px;
   height:250px;
@@ -337,7 +336,7 @@ width: 440px;
   background-color: #fff;
   position: absolute;
   left: 33.8%;
-  top: 52%;
+  top: 40%;
     width: 440px;
   height:250px;
 
@@ -365,7 +364,7 @@ width: 440px;
   background-color: #fff;
   position: absolute;
   right: 0%;
-  top: 52%;
+  top: 40%;
     width: 440px;
   height:250px;
 }
@@ -469,13 +468,13 @@ filter: opacity(.9);
     width: 80%;
     background-color: #fff;
   -webkit-transition: background 1s ease;
-  color 0.5s linear;
+  color: 0.5s linear;
   -moz-transition: background 1s ease;
-  color 0.5s linear;
+  color: 0.5s linear;
   -o-transition: background 1s ease;
-  color 0.5s linear;
+  color: 0.5s linear;
   transition: background 1s ease;
-  color 0.5s linear;
+  color: 0.5s linear;
 }
 
 .sidebar p:hover,

@@ -97,8 +97,7 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin-top: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
     float: left;
     border: none;
     background-color: #4fa800; }
@@ -111,8 +110,7 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin-top: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
     float: left;
     border: none; }
 
@@ -169,10 +167,9 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin-top: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
-    float: left;
-    border: none;
+      margin-right:70%;
+
+      border: none;
     background-color: #4fa800; }
 
   a.readmore:hover,
@@ -180,19 +177,18 @@
     display: inline-block;
     width: 60%;
     font-size: 32px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin-right:70%;
+
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin-top: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
-    float: left;
     border: none; }
 
   #mobilearchive {
     display: inline-block;
+    float: left;
     color: #fff;
-    width: 85%;
-    position: absolute;
+      margin-right:70%;
     top: 65%;
     font-size: 15px; }
 

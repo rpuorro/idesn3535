@@ -2,11 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>artboard</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="vectoroctave.js"></script>
+    <title>vectoroctave</title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+
 </head>
 
-<body>
+<body onload="init();">
+
+<canvas id ="canvas"></canvas>
+
+<div id="toolbar">
+
+    <div id="colors">
+
+        <button id = "blue" onClick="changeColor('#2979FF')"></button>
+        <button id = "teal" onClick="changeColor('#6ECBB3')"></button>
+        <button id = "red" onClick="changeColor('#FF4081')"></button>
+        <button id = "white" onClick="changeColor('#ffffff')"></button>
+
+        <button id = "clearCanvas" onClick="clearCanvas()"></button>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="vo.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    });
+</script>
+
 </body>
 </html>

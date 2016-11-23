@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>vectoroctave</title>
-<link rel ="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <canvas id ="canvas"></canvas>
-    <div id="toolbar">
+<canvas id ="canvas"></canvas>
+<div id="toolbar">
 
     <div id="colors">
 
-        <div class = "swatch active" style="background-color:#2E3372"></div>
-        <div class = "swatch" style="background-color: #6ECBB3"></div>
-        <div class = "swatch" style="background-color: #B0525E"></div>
+        <button id = "blue" onClick="changeColor('#2E3372')"></button>
+        <button id = "teal" onClick="changeColor('#6ECBB3')"></button>
+        <button id = "red" onClick="changeColor('#B0525E')"></button>
+        <button id = "white" onClick="changeColor('#ffffff')"></button>
+
+        <button id = "clearCanvas" onClick="clearCanvas()"></button>
 
     </div>
 
 </div>
 
-    <script type="text/javascript" src="vo.js"></script>
-
+<script type="text/javascript" src="vo.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    });
+</script>
 
 </body>
 </html>

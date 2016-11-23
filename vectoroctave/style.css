@@ -12,15 +12,16 @@ canvas {
     border: 0;
     cursor:crosshair;
     -webkit-filter: brightness(100%);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
+    -webkit-transition: 10s ease-in-out;
+    -moz-transition: 10s ease-in-out;
+    -o-transition: 10s ease-in-out;
+
 }
 canvas:active {
-    -webkit-filter: brightness(200%);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
+    -webkit-filter: brightness(150%);
+    -webkit-transition: 10s ease-in-out;
+    -moz-transition: 10s ease-in-out;
+    -o-transition: 10s ease-in-out;
 }
 
 #stage {

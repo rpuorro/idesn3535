@@ -82,7 +82,7 @@ var audio = document.createElement('audio');
 
 function handleInteraction(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('jeff-the-brotherhood_moog-14_synths_one_shot_.wav.wav');
+    audio = new Audio('jeff-the-brotherhood_moog-14_synths_one_shot_.wav.wav');
     audio.play();
 }
 function nextHandle(event) {
@@ -92,12 +92,12 @@ function nextHandle(event) {
 }
 function thirdHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('jeff-the-brotherhood_moog-10_synths_one_shot_.wav.wav');
+    audio = new Audio('jeff-the-brotherhood_moog-10_synths_one_shot_.wav.wav');
     audio.play();
 }
 function fourthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('jeff-the-brotherhood_moog-11_synths_one_shot_.wav.wav');
+    audio = new Audio('jeff-the-brotherhood_moog-11_synths_one_shot_.wav.wav');
     audio.play();
     audio.w(25)
 }

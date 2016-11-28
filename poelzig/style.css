@@ -1,0 +1,345 @@
+@media screen
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px)
+     {
+
+    }
+    #main_container {
+        width: 805px;
+        height: 620px;
+        margin: auto;
+        background-color: #d9ad64;
+        }
+    .fre_feb {
+        float: right;
+        height: 28px;
+        width: 144px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: left;
+        padding-top: 2px;
+        letter-spacing: 3px;
+        padding-left: 16px;
+        margin-right: 15px;
+        background-color: #CC0000;
+    }
+    #top_box2 {
+        float: right;
+        height: 32px;
+        width: 169px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    #archi_box {
+        float: left;
+        height: 46px;
+        width: 603px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 46px;
+        color: #000000;
+        padding-top: 170px;
+        padding-left: 16px;
+        margin: 0;
+        letter-spacing: 1px;
+    }
+
+
+    #twentysix_box {
+        display:inline-block;
+        float: right;
+        height: 128px;
+        width: 179px;
+    }
+    #februar {
+        float: right;
+        height: 30px;
+        width: 169px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    #lichtbilder {
+        float: left;
+        height: 24px;
+        width: 610px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: normal;
+        text-align: center;
+        line-height: 32px;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+    #vortrag_graphic {
+        float: left;
+        width: 166px;
+        height: 166px;
+        border-radius: 83px;
+        background-color: #CC0000;
+        margin-left: 230px;
+        margin-right: 100px;
+        margin-top:20px;
+    }
+    #text_rules {
+        display: inline-block;
+        float: right;
+        height: 116px;
+        width: 163px;
+        padding-right: 15px;
+    }
+    #text_rules2 {
+        float: right;
+        height: 82px;
+        width: 178px;
+    }
+    #prof_poelzig {
+        float: left;
+        height: 168px;
+        width: 621px;
+        margin-top: 0;
+    }
+    #bottom_right {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        float: left;
+        margin-top: 160px;
+        height: 90px;
+        color: #CC0000;
+        letter-spacing: 1px;
+        transform: rotate(270deg);
+        transform-origin: left top 0;
+    }
+    h4 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 120px;
+        font-weight: bold;
+        color: #000000;
+        letter-spacing: -12px;
+        line-height: 90px;
+        margin-left: -8px;
+    }
+    #mobilenumber {
+        display: none;
+    }
+
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 26px;
+        color: #000000;
+        line-height: 120px;
+        text-align: center;
+    }
+    h2 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #000000;
+        border-bottom: 6px solid #000000;
+        margin-top: 5px;
+        margin-bottom: 6px;
+        padding-bottom: 8px;
+        text-align: justify;
+        font-weight: normal;
+    }
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        float: right;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #CC0000;
+        border-bottom: 6px solid #CC0000;
+        margin-top: 12px;
+        padding-bottom: 3px;
+        line-height: 18px;
+        margin-right: 15px;
+        letter-spacing: 1px;
+        font-weight: lighter;
+        width: 163px;
+    }
+    h5 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: lighter;
+        color: #000000;
+        text-transform: uppercase;
+        margin-left: 20px;
+        margin-top: 40px;
+        letter-spacing: 1px;
+    }
+    h6 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 120px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: #000000;
+        margin-left: 10px;
+        margin-top: 0;
+        line-height: 10px;
+    }
+
+@media only screen
+    and (min-device-width: 100px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        background-color: #d9ad64;
+
+    }
+    #vortrag_graphic {
+        display: inline-block;
+        position: relative;
+        float: left;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        background-color: #CC0000;
+        margin-left: 10px;
+        margin-right: 100px;
+    }
+    .fre_feb {
+        display: inline-block;
+        position: relative;
+        float: right;
+        height: 70px;
+        width: 600px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: left;
+        padding-top: 2px;
+        letter-spacing: 3px;
+        padding-left: 16px;
+        margin-right: 0;
+        margin-top: 100%;
+        background-color: #CC0000;
+    }
+    #archi_box {
+        font-size: 70px;
+        padding-top: 50px;
+    }
+
+
+    #twentysix_box {
+        display: none;
+
+    }
+    #februar {
+        display: inline-block;
+        position: relative;
+        float: right;
+        margin-top: 250px;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    #lichtbilder {
+        display: inline-block;
+        width: 200px;
+        position: relative;
+        font-size: 40px;
+        line-height: 100px;
+    }
+    #mobilenumber {
+        display: inline-block;
+        height:20px;
+        width:20px;
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 140px;
+        font-weight: 800;
+        margin-top: 20%;
+        text-align: center;
+        margin-left: 50%;
+    }
+    #text_rules {
+
+        float: left;
+        margin-top: 40%;
+        margin-left: 50%;
+        width: 400px;
+        padding-right: 0;
+
+    }
+    #text_rules2 {
+        float: left;
+        margin-left: 50%;
+        width: 400px;
+        padding-right: 0;
+
+
+    }
+    #prof_poelzig {
+
+        float: left;
+        height: 168px;
+        width: 621px;
+        margin-top: 0;
+    }
+    #bottom_right {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        float: left;
+        margin-left: 90%;
+        margin-top: 160px;
+        color: #CC0000;
+        letter-spacing: 1px;
+        transform: rotate(270deg);
+        transform-origin: left top 0;
+    }
+    h4 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 120px;
+        font-weight: bold;
+        color: #000000;
+        letter-spacing: -12px;
+        line-height: 90px;
+        margin-left: -8px;
+    }
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        color: #000000;
+        line-height: 190px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 25px;
+        text-align: left;
+        line-height: 1.5em;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+    }
+    h1 {
+        text-align: left;
+        line-height: 1.2em;
+        font-size: 30px;
+        width: 400px;
+        padding: 0;
+        margin: 0;
+    }
+    h5 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: lighter;
+        color: #000000;
+        text-transform: uppercase;
+        margin-left: 20px;
+        margin-top: 25%;
+        letter-spacing: 1px;
+    }
+    h6 {
+        display: inline-block;
+        font-size: 140px;
+
+}}
+
+

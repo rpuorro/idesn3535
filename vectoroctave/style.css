@@ -6,10 +6,10 @@ body {
     cursor:crosshair;
 }
 canvas {
-    background-color: #311B92;
-    margin: 0;
+    background-color: #303F9F;
     padding: 0;
-    border: 0;
+    margin: auto;
+    display: block;
     cursor:crosshair;
     -webkit-filter: brightness(100%);
     -webkit-transition: 10s ease-in;
@@ -18,7 +18,7 @@ canvas {
 
 }
 canvas:hover {
-    -webkit-filter: brightness(300%);
+    -webkit-filter: brightness(150%);
     -webkit-transition: 10s ease-in-out;
     -moz-transition: 10s ease-in-out;
     -o-transition: 10s ease-in-out;

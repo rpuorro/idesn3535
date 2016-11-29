@@ -10,62 +10,62 @@ function init() {
 
 
     //these are variables for the elements that contain the music sounds within artboards. Per CreatejsAPI, originally used as text elements hence "label".
-    var label1 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label1 = new createjs.Text("g", "50px webdings", "#455A64");
     label1.x = 200;
     label1.y = 200;
     label1.alpha = 1;
 
-    var label2 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label2 = new createjs.Text("g", "50px webdings", "#455A64");
     label2.x = 300;
     label2.y = 200;
     label2.alpha = 1;
 
-    var label3 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label3 = new createjs.Text("g", "50px webdings", "#455A64");
     label3.x = 400;
     label3.y = 200;
     label3.alpha = 1;
 
-    var label4 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label4 = new createjs.Text("g", "50px webdings", "#455A64");
     label4.x = 500;
     label4.y = 200;
     label4.alpha = 1;
 
-    var label5 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label5 = new createjs.Text("g", "50px webdings", "#455A64");
     label5.x = 600;
     label5.y = 200;
     label5.alpha = 1;
     //
-    var label6 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label6 = new createjs.Text("g", "50px webdings", "#455A64");
     label6.x = 700;
     label6.y = 200;
     label6.alpha = 1;
 
-    var label7 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label7 = new createjs.Text("g", "50px webdings", "#455A64");
     label7.x = 200;
     label7.y = 350;
     label7.alpha = 1;
     //
-    var label8 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label8 = new createjs.Text("g", "50px webdings", "#455A64");
     label8.x = 300;
     label8.y = 350;
     label8.alpha = 1;
 
-    var label9 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label9 = new createjs.Text("g", "50px webdings", "#455A64");
     label9.x = 400;
     label9.y = 350;
     label9.alpha = 1;
 
-    var label10 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label10 = new createjs.Text("g", "50px webdings", "#455A64");
     label10.x = 500;
     label10.y = 350;
     label10.alpha = 1;
 
-    var label11 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label11 = new createjs.Text("g", "50px webdings", "#455A64");
     label11.x = 600;
     label11.y = 350;
     label11.alpha = 1;
 
-    var label12 = new createjs.Text("g", "50px webdings", "#3949AB");
+    var label12 = new createjs.Text("g", "50px webdings", "#455A64");
     label12.x = 700;
     label12.y = 350;
     label12.alpha = 1;
@@ -108,62 +108,62 @@ var audio = document.createElement('audio');
 
 function handleInteraction(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    audio = new Audio('mount-kimbie_long-synth-3_synths_one_shot_.wav.wav');
+    audio = new Audio('052_ped_s.wav');
     audio.play();
 }
 function nextHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('mount-kimbie_synth-choir-4_synths_one_shot_.wav.wav');
+    var audio = new Audio('051_ped_h.wav');
     audio.play();
 }
 function thirdHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    audio = new Audio('mount-kimbie_synth-choir-3_synths_one_shot_.wav.wav');
+    audio = new Audio('049_ped_h.wav');
     audio.play();
 }
 function fourthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    audio = new Audio('mount-kimbie_piano-synth-1_synths_one_shot_.wav.wav');
+    audio = new Audio('037_ped_mf.wav');
     audio.play();
 }
 function fifthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('mount-kimbie_long-synth-3_synths_one_shot_.wav.wav');
+    var audio = new Audio('036_ped_mf.wav');
     audio.play();
 }
 function sixthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('mount-kimbie_synth-chord-4_synths_one_shot_.wav.wav');
+    var audio = new Audio('047_ped_s.wav');
     audio.play();
 }
 function seventhHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('mount-kimbie_synth-chord-8_synths_one_shot_.wav.wav');
+    var audio = new Audio('047_ped_h.wav');
     audio.play();
 }
 function eighthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('mount-kimbie_synth-chord-10_synths_one_shot_.wav.wav');
+    var audio = new Audio('046_ped_mf.wav');
     audio.play();
 }
 function ninthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('mount-kimbie_synth-chord-11_synths_one_shot_.wav.wav');
+    var audio = new Audio('044_ped_mf.wav');
     audio.play();
 }
 function tenthHandle (event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('mount-kimbie_synth-chord-14_synths_one_shot_.wav.wav');
+    var audio = new Audio('044_ped_h.wav');
     audio.play();
 }
 function eleventhHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('mount-kimbie_synth-chord-12_synths_one_shot_.wav.wav');
+    var audio = new Audio('043_ped_h.wav');
     audio.play();
 }
 function twelfthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('mount-kimbie_synth-chord-9_synths_one_shot_.wav.wav');
+    var audio = new Audio('040_ped_s.wav');
     audio.play();
 }
 
@@ -212,4 +212,5 @@ function changeColor(color) {
 }
 function clearCanvas() {
     context.clearRect(0, 0, canvas.width, canvas.height);
+    return true;
 }

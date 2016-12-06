@@ -10,17 +10,20 @@
 </head>
 <body onload="init();">
 
-<canvas id ="canvas" width="100%"></canvas>
+<canvas id ="canvas"></canvas>
 
 <div id="toolbar">
 
     <div id="colors">
 
         <button id = "blue" onClick="changeColor('#2979FF')"></button>
+        <div class="liner"></div>
         <button id = "teal" onClick="changeColor('#6ECBB3')"></button>
+        <div class="liner"></div>
         <button id = "red" onClick="changeColor('#FF4081')"></button>
+        <div class="liner"></div>
         <button id = "white" onClick="changeColor('#ffffff')"></button>
-
+        <div class="liner"></div>
         <input type="button" id="clear" value="CLEAR" onClick="window.location.reload()">
 
     </div>

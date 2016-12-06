@@ -20,87 +20,87 @@ function init() {
     var label2 = new createjs.Text("g", "95px webdings", "#455A64");
     label2.x = 300;
     label2.y = 200;
-    label2.alpha = 1;
+    label2.alpha = .5;
 
     var label3 = new createjs.Text("g", "95px webdings", "#455A64");
     label3.x = 400;
     label3.y = 200;
-    label3.alpha = 1;
+    label3.alpha = .5;
 
     var label4 = new createjs.Text("g", "95px webdings", "#455A64");
     label4.x = 500;
     label4.y = 200;
-    label4.alpha = 1;
+    label4.alpha = .5;
 
     var label5 = new createjs.Text("g", "95px webdings", "#455A64");
     label5.x = 600;
     label5.y = 200;
-    label5.alpha = 1;
+    label5.alpha = .5;
     //
     var label6 = new createjs.Text("g", "95px webdings", "#455A64");
     label6.x = 700;
     label6.y = 200;
-    label6.alpha = 1;
+    label6.alpha = .5;
 
     var label7 = new createjs.Text("g", "95px webdings", "#455A64");
     label7.x = 200;
     label7.y = 350;
-    label7.alpha = 1;
+    label7.alpha = .5;
     //
     var label8 = new createjs.Text("g", "95px webdings", "#455A64");
     label8.x = 300;
     label8.y = 350;
-    label8.alpha = 1;
+    label8.alpha = .5;
 
     var label9 = new createjs.Text("g", "95px webdings", "#455A64");
     label9.x = 400;
     label9.y = 350;
-    label9.alpha = 1;
+    label9.alpha = .5;
 
     var label10 = new createjs.Text("g", "95px webdings", "#455A64");
     label10.x = 500;
     label10.y = 350;
-    label10.alpha = 1;
+    label10.alpha = .5;
 
     var label11 = new createjs.Text("g", "95px webdings", "#455A64");
     label11.x = 600;
     label11.y = 350;
-    label11.alpha = 1;
+    label11.alpha = .5;
 
     var label12 = new createjs.Text("g", "95px webdings", "#455A64");
     label12.x = 700;
     label12.y = 350;
-    label12.alpha = 1;
+    label12.alpha = .5;
 
     var label13 = new createjs.Text("g", "95px webdings", "#455A64");
     label13.x = 200;
     label13.y = 500;
-    label13.alpha = 1;
+    label13.alpha = .5;
 
     var label14 = new createjs.Text("g", "95px webdings", "#455A64");
     label14.x = 300;
     label14.y = 500;
-    label14.alpha = 1;
+    label14.alpha = .5;
 
     var label15 = new createjs.Text("g", "95px webdings", "#455A64");
     label15.x = 400;
     label15.y = 500;
-    label15.alpha = 1;
+    label15.alpha = .5;
 
     var label16 = new createjs.Text("g", "95px webdings", "#455A64");
     label16.x = 500;
     label16.y = 500;
-    label16.alpha = 1;
+    label16.alpha = .5;
 
     var label17 = new createjs.Text("g", "95px webdings", "#455A64");
     label17.x = 600;
     label17.y = 500;
-    label17.alpha = 1;
+    label17.alpha = .5;
 
     var label18 = new createjs.Text("g", "95px webdings", "#455A64");
     label18.x = 700;
     label18.y = 500;
-    label18.alpha = 1;
+    label18.alpha = .5;
 
 
 // each variable needs its own function, because every trigger-able element within the artboard contains a unique musical note-IE handleInteraction is the function of label1, when label1 is passed over, moog10 synth plays
@@ -157,8 +157,6 @@ function handleInteraction(event) {
     var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 1, volume: 0.5});
     createjs.Sound.play("Alliance Strings.m4a", ppc);
     sound.play(ppc);
-
-
 }
 function nextHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
@@ -166,13 +164,14 @@ function nextHandle(event) {
     audio.play();
 }
 function thirdHandle(event) {
-    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    audio = new Audio('AllianceMidStrings02.m4a');
-    audio.play();
+    event.target.alpha = (event.type == "mouseover");
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, volume: 0.5});
+    createjs.Sound.play("BlastSynthLayers02.m4a", ppc);
+    sound.play(ppc);
 }
 function fourthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    audio = new Audio('Breaking Up Synth Chords.m4a');
+    audio = new Audio('BreakingUpSynthChords.m4a');
     audio.play();
 }
 function fifthHandle(event) {
@@ -260,6 +259,15 @@ var putPoint = function (brush) {
         context.beginPath( brush.clientY);
         context.beginPath();
         context.moveTo(brush.clientX, brush.clientY);
+        // context.fillText("THIS",brush.clientX, brush.clientY);
+        context.rotate(Math.PI*2);
+        // context.opacity=.1
+        context.beginPath();
+        context.arc(brush.clientX+10, brush.clientY-10, radius, 3, Math.PI*2);
+        context.fill();
+        context.beginPath( brush.clientY-5);
+        context.beginPath();
+        context.moveTo(brush.clientX-s10, brush.clientY+10);
         // context.fillText("THIS",brush.clientX, brush.clientY);
         context.rotate(Math.PI*2);
         // context.opacity=.1

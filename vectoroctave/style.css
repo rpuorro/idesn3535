@@ -5,8 +5,12 @@ body {
     border: 0;
     cursor:crosshair;
 }
-canvas {
+
+#topbar {
     background-color: #37474F;
+}
+canvas {
+    background-color: #000000;
     padding: 0;
     margin: auto;
     display: block;
@@ -49,12 +53,13 @@ background-color: #ffffff;
     border-radius: 14px;
     display: inline-block;
     margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .swatch.active {
     border: 2px solid #ffffff;
 }
+
 
 
 #blue {
@@ -65,8 +70,8 @@ background-color: #ffffff;
     border: none;
     stroke: none;
     margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     background-color: #2979FF;
 
 }
@@ -85,8 +90,8 @@ background-color: #ffffff;
     border: none;
     stroke: none;
     margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     background-color: #6ECBB3;
 }
 #teal:hover {
@@ -104,10 +109,11 @@ background-color: #ffffff;
     border: none;
     stroke: none;
     margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     background-color:#FF4081;
 }
+
 #red:hover {
     border: 2px solid #ffffff;
 }
@@ -120,8 +126,8 @@ background-color: #ffffff;
     border: none;
     stroke: none;
     margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     background-color: #ffffff ;
 }
 #clearCanvas {
@@ -136,10 +142,24 @@ background-color: #ffffff;
     background-color: #90A4AE;
 }
 input {
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 20px;
 }
 .button:active {
     outline: 2px solid #ffffff;
     round-clip: 15px;
+}
+#clear {
+    background-color: #00bcd4;
+    padding: 3px;
+    height: 20px;
+    width: 40px;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+#what {
+    width: 400px;
+    background-color: #00bcd4;
 }

@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <title>vectoroctave</title>
     <link rel ="stylesheet" href="style.css">
-    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script src="createjs-2015.11.26.min.js"></script>
 
-    <script src ="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+    <script src ="soundjs-0.6.2.min.js"></script>
 </head>
-
 <body onload="init();">
 
 <canvas id ="canvas" width="100%"></canvas>
@@ -17,12 +16,12 @@
 
     <div id="colors">
 
-        <button id = "blue" onClick="cchangeColor('#2979FF')"></button>
+        <button id = "blue" onClick="changeColor('#2979FF')"></button>
         <button id = "teal" onClick="changeColor('#6ECBB3')"></button>
         <button id = "red" onClick="changeColor('#FF4081')"></button>
         <button id = "white" onClick="changeColor('#ffffff')"></button>
 
-        <button id = "clearCanvas" onClick="clearCanvas()"></button>
+        <input type="button" id="clear" value="CLEAR" onClick="window.location.reload()">
 
     </div>
 

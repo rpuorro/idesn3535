@@ -8,12 +8,14 @@ function init() {
     stage = new createjs.Stage("canvas");
     stage.enableMouseOver(10);
 
+    createjs.Sound.registerSound("Alliance Strings.m4a");
+
 
     //these are variables for the elements that contain the music sounds within artboards. Per CreatejsAPI, originally used as text elements hence "label".
     var label1 = new createjs.Text("g", "95px webdings", "#455A64");
     label1.x = 200;
     label1.y = 200;
-    label1.alpha = 1;
+    label1.alpha = .5;
 
     var label2 = new createjs.Text("g", "95px webdings", "#455A64");
     label2.x = 300;
@@ -151,9 +153,12 @@ function init() {
 var audio = document.createElement('audio');
 
 function handleInteraction(event) {
-    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    audio = new Audio('Alliance Strings.m4a');
-    audio.play();
+    event.target.alpha = (event.type == "mouseover");
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 1, volume: 0.5});
+    createjs.Sound.play("Alliance Strings.m4a", ppc);
+    sound.play(ppc);
+
+
 }
 function nextHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;

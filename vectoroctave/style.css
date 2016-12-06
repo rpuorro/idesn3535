@@ -15,17 +15,20 @@ canvas {
     margin: auto;
     display: block;
     cursor:crosshair;
-    -webkit-filter: brightness(100%);
+    -webkit-filter: brightness(70%); filter:blur(0);
     -webkit-transition: 10s ease-in;
     -moz-transition: 10s ease-in;
     -o-transition: 10s ease-in;
+    background-image: url("pixel.jpg");
+
 
 }
 canvas:hover {
-    -webkit-filter: brightness(150%);
+    -webkit-filter: brightness(150%); filter:blur(3px);
     -webkit-transition: 10s ease-in-out;
     -moz-transition: 10s ease-in-out;
     -o-transition: 10s ease-in-out;
+
 }
 
 #stage {

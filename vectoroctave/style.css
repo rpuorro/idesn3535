@@ -81,19 +81,35 @@ canvas:hover {
     background-color: #000033;
     border-top: 1px solid #263238;
 }
+.radcontrol{
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    background-color: #0b93d5;
+    color: #ffffff;
+    text-align: center;
+
+
+
+
+}
 #colors {
     float: left;
     display: inline-block;
+    margin-left: 100px;
+    margin-top: -10px;
 }
 #swatchspacer {
     display: inline-block;
     width: 50px;
 }
 .swatch {
+    float: left;
+    display: inline-block;
     width: 28px;
     height: 28px;
     border-radius: 14px;
-    display: inline-block;
     margin-top: 15px;
     margin-left: 15px;
     margin-right: 15px;
@@ -111,10 +127,11 @@ canvas:hover {
 }
 
 #blue {
+    float: left;
+    display: inline-block;
     width: 28px;
     height: 28px;
     border-radius: 14px;
-    display: inline-block;
     border: none;
     stroke: none;
     margin-top: 10px;
@@ -131,6 +148,8 @@ canvas:hover {
 }
 
 #teal {
+    float: left;
+
     width: 28px;
     height: 28px;
     border-radius: 14px;
@@ -150,6 +169,8 @@ canvas:hover {
 }
 
 #red {
+    float: left;
+
     width: 28px;
     height: 28px;
     border-radius: 14px;
@@ -168,6 +189,8 @@ canvas:hover {
 }
 
 #white {
+    float: left;
+
     width: 28px;
     height: 28px;
     border-radius: 14px;
@@ -180,10 +203,15 @@ canvas:hover {
     background-color: #ffffff;
 }
 #clearCanvas {
+    float: left;
+
     width: 15px;
     background-color: #ffffff;
 }
 input {
+    float: left;
+    display: inline-block;
+
     padding: 10px;
     margin: 20px;
 }
@@ -194,15 +222,21 @@ input {
 
 }
 #clear {
+    display: inline-block;
+    float: left;
     background-color: #000033;
     border: 1pt solid #78909C;
     margin-left: 30px;
-    padding:6px;
+    margin-top:10px;
+    padding: 6px;
     color: #ffffff;
-    margin-bottom: 40px;
-
 }
-#what {
-    width: 400px;
-    background-color: #00bcd4;
+* {
+    box-sizing: border-box;
+}
+
+#rad {
+    margin-left: 40px;
+    margin-right: 40px;
+
 }

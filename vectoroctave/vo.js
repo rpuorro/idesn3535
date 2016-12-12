@@ -494,7 +494,7 @@ var putPoint = function (brush) {
     if (dragging) {
         context.lineTo(brush.clientX, brush.clientY);
         context.stroke();
-        context.arc(brush.clientX, brush.clientY, radius, 3, Math.PI*2);
+        context.arc(brush.clientX, brush.client, radius, 10, Math.PI*2);
         context.fill();
         context.beginPath( brush.clientY);
         context.moveTo(brush.clientX, brush.clientY);
@@ -508,6 +508,9 @@ var putPoint = function (brush) {
         // context.moveTo(0,0);
         // context.lineTo(window.innerHeight, window.innerHeight);
         // context.stroke();
+
+
+
 };
 var engage = function () {
     dragging = true

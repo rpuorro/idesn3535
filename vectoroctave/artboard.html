@@ -11,13 +11,13 @@
 <body onload="init();">
 
 <canvas id ="canvas"></canvas>
-<canvas id ="canvas"></canvas>
 
 <div id="toolbar">
     <div id="rad">
-        radius<span id="radval">10</span>
-        <div id="incrad" class="radcontrol">-</div>
-        <div id="decrad" class="radcontrol">+</div>
+        <div id="dammit"><div id="radval"><div class="dammit"></div></div></div>
+        <div id="decrad" class="radcontrol">-</div>
+        <div id="incrad" class="radcontrol">+</div>
+
 
     </div>
     <div id="colors">
@@ -26,9 +26,9 @@
         <div class="liner"></div>
         <button id = "teal" onClick="changeColor('#6ECBB3')"></button>
         <div class="liner"></div>
-        <button id = "red" onClick="changeColor('#FF4081'); alpha =.4"></button>
+        <button id = "red" onClick="changeColor('#FF4081')"></button>
         <div class="liner"></div>
-        <button id = "white" onClick="changeColor('#ffffff')"></button>
+        <button id = "white" onClick="changeColor('#005695')"></button>
         <div class="liner"></div>
         <input type="button" id="clear" value="CLEAR" onClick="window.location.reload()">
 

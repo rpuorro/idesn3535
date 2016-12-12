@@ -481,39 +481,31 @@ function fourteenthHandle(event) {
     var audio = new Audio('low1.wav');
     audio.play();
 }
-
 var radius = 1;
 var dragging = false;
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-context.lineWidth = 2;
+context.lineWidth = radius*2;
 
-var putPoint = function (brush) {
+
+var putPoint = function (e) {
     if (dragging) {
-        context.lineTo(brush.clientX, brush.clientY);
+        context.lineTo(e.clientX, e.clientY);
         context.stroke();
-        context.arc(brush.clientX, brush.client, radius, 10, Math.PI*2);
+        context.beginPath();
+        context.arc(e.clientX, e.clientY, radius,0, Math.PI*2);
         context.fill();
-        context.beginPath( brush.clientY);
-        context.moveTo(brush.clientX, brush.clientY);
-        // context.fillText("THIS",brush.clientX, brush.clientY);
+        context.beginPath();
+        context.moveTo(e.clientX, e.clientY);
         context.rotate(Math.PI*2);
-        context.shadowBlur = 10;
-        context.shadowColor = 'rgb(255, 255, 255)';
+        context.moveTo(e.clientX, e.clientY);
              }
-
-        // context.beginPath();
-        // context.moveTo(0,0);
-        // context.lineTo(window.innerHeight, window.innerHeight);
-        // context.stroke();
-
-
-
 };
-var engage = function () {
-    dragging = true
+var engage = function(e) {
+    dragging = true;
+    putPoint(e);
 };
 var disengage = function () {
     dragging = false;
@@ -523,8 +515,6 @@ var disengage = function () {
 canvas.addEventListener('mousedown', engage);
 canvas.addEventListener('mousemove', putPoint);
 canvas.addEventListener('mouseup', disengage);
-
-
 
 
 function changeColor(color) {

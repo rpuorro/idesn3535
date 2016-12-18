@@ -1,78 +1,90 @@
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
+body, html {
+    height:100%;
+    overflow: hidden;
 
 }
-#hat {
-    background-color: #0b93d5;
+div.wrap {
+    height:100%; overflow:hidden;
 }
-
-
-
+#stage {
+    width: 100%;
+}
 
 #topbar {
     background-color: #263238;
     width: 100%;
     height:40px;
 }
-canvas {
+#canvas {
     width: 100%;
     padding: 0;
     display: block;
-    -webkit-transition: 10s ease-in;
-    -moz-transition: 10s ease-in;
-    -o-transition: 10s ease-in;
-    background: #000000;
-
-
-
+    -webkit-transition: 3s ease-in;
+    -moz-transition: 3s ease-in;
+    -o-transition: 3s ease-in;
+background: none;
 }
-canvas:hover {
-
-    animation: pulse 30s infinite;
+#canvas2 {
+    width: 100%;
+    padding: 0;
+    display: block;
+    -webkit-transition: 4s ease-in;
+    -moz-transition: 4s ease-in;
+    -o-transition: 4s ease-in;
+    opacity: .2;
 }
-
-@keyframes pulse {
-    0% {
-        background-color: #000000;
-    }
-    10% {
-        background-color: #331122;
-    }
-    20% {
-        background-color: #111111;
-    }
-    30% {
-        background-color: #0097A7;
-    }
-    30% {
-        background-color: #331122;
-    }
-    50% {
-        background-color: #000000;
-    }
-    60% {
-        background-color: #331122;
-    }
-    70% {
-        background-color: #004D40;
-    }
-    80% {
-    }
-
-    90% {
-        background-color: #37474F;
-    }
-    100% {
-        background-color: #000000;
-    }
+#canvas2:hover {
+    opacity:1;
+    -webkit-transition: 2s ease-in;
+    -moz-transition: 2s ease-in;
+    -o-transition: 2s ease-in;
 }
+/*}*/
+/*canvas:hover {*/
+
+    /*animation: pulse 30s infinite;*/
+/*}*/
+
+/*@keyframes pulse {*/
+    /*0% {*/
+        /*background-color: #000000;*/
+    /*}*/
+    /*10% {*/
+        /*background-color: #331122;*/
+    /*}*/
+    /*20% {*/
+        /*background-color: #111111;*/
+    /*}*/
+    /*30% {*/
+        /*background-color: #0097A7;*/
+    /*}*/
+    /*30% {*/
+        /*background-color: #331122;*/
+    /*}*/
+    /*50% {*/
+        /*background-color: #000000;*/
+    /*}*/
+    /*60% {*/
+        /*background-color: #331122;*/
+    /*}*/
+    /*70% {*/
+        /*background-color: #004D40;*/
+    /*}*/
+    /*80% {*/
+    /*}*/
+
+    /*90% {*/
+        /*background-color: #37474F;*/
+    /*}*/
+    /*100% {*/
+        /*background-color: #000000;*/
+    /*}*/
+/*}*/
 
 
-#stage {
-    background-color: #ffffff;
-}
+/*#stage {*/
+    /*background-color: #ffffff;*/
+/*}*/
 
 * {
     box-sizing: border-box;
@@ -90,6 +102,8 @@ canvas:hover {
     height: 50px;
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #263238;
 }
 .radcontrol {
@@ -247,7 +261,7 @@ color: #9FA8DA;
 #indigo:hover {
     border: 2px solid #ffffff;
 }
-#orange{
+#yellow{
     float: left;
     display: inline-block;
     width: 28px;
@@ -258,10 +272,10 @@ color: #9FA8DA;
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    background-color:#FF6F00;
+    background-color:#FFD600;
 
 }
-#orange:hover {
+#yellow:hover {
     border: 2px solid #ffffff;
 }
 #slate{
@@ -311,6 +325,7 @@ color: #9FA8DA;
     margin-left: 15px;
     margin-right: 15px;
     background-color: #000000;
+
 }
 #white:hover {
     border: 2px solid #ffffff;
@@ -359,3 +374,28 @@ input {
 }
 
 
+#bar_create {
+    display: inline-block;
+    float:right;
+    padding: 0;
+    opacity: 1;
+    margin-top: -10px;
+
+}
+#bar_create:hover {
+    opacity: 0.5;
+}
+#bar_info {
+    display: inline-block;
+    padding-bottom: 15px;
+    margin-top: -10px;
+
+    float:right;
+    opacity: 1;
+
+}
+
+#bar_info:hover {
+    opacity: 0.5;
+
+}

@@ -18,26 +18,40 @@ div.wrap {
 #canvas {
     width: 100%;
     padding: 0;
+    margin:0;
     display: block;
-    -webkit-transition: 3s ease-in;
-    -moz-transition: 3s ease-in;
-    -o-transition: 3s ease-in;
-background: none;
+    -webkit-transition: 1s ease-in;
+    -moz-transition: 1s ease-in;
+    -o-transition: 1s ease-in;
+    background: #40444f;
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    opacity: 1;
 }
 #canvas2 {
     width: 100%;
     padding: 0;
+    margin:0;
     display: block;
-    -webkit-transition: 4s ease-in;
-    -moz-transition: 4s ease-in;
-    -o-transition: 4s ease-in;
-    opacity: .2;
+    -webkit-transition: 1s ease-in;
+    -moz-transition: 1s ease-in;
+    -o-transition: 1s ease-in;
 }
 #canvas2:hover {
     opacity:1;
-    -webkit-transition: 2s ease-in;
-    -moz-transition: 2s ease-in;
-    -o-transition: 2s ease-in;
+    -webkit-transition: 1s ease-in;
+    -moz-transition: 1s ease-in;
+    -o-transition: 1s ease-in;
+
+}
+#canvas2 {
+    width: 100%;
+    padding: 0;
+    margin:0;
+    display: block;
+    background-color: rgba(0,0,0,0)
 }
 /*}*/
 /*canvas:hover {*/
@@ -195,11 +209,7 @@ color: #9FA8DA;
     stroke: none;
     margin-top: 10px;
     margin-right: 15px;
-    background-color: #2979FF;
-
-}
-#blue:hover {
-    border: 2px solid #2979FF;
+    background-color: #1DE9B6;
 }
 #blue:hover {
     border: 2px solid #ffffff;
@@ -217,7 +227,7 @@ color: #9FA8DA;
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    background-color: #6ECBB3;
+    background-color: #00897B;
 }
 #teal:hover {
     border: 2px solid #ffffff;
@@ -237,7 +247,7 @@ color: #9FA8DA;
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    background-color:#FF4081;
+    background-color:#F50057;
 
 }
 
@@ -255,7 +265,7 @@ color: #9FA8DA;
      margin-top: 10px;
      margin-left: 15px;
      margin-right: 15px;
-     background-color:#283593;
+     background-color:#1565C0;
 
  }
 #indigo:hover {
@@ -272,7 +282,7 @@ color: #9FA8DA;
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    background-color:#FFD600;
+    background-color:#880E4F;
 
 }
 #yellow:hover {

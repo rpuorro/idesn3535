@@ -7,11 +7,13 @@
     <script src="createjs-2015.11.26.min.js"></script>
 
     <script src ="SoundJS-master/lib/soundjs-0.6.2.combined.js"></script>
+    <script src="/EaselJS-master/lib/easeljs-NEXT.combined.js"></script>
 
 </head>
 <body onload="init();">
 <div class=wrap>
 <canvas id ="canvas2" width="100%" style="position: absolute;"></canvas>
+
 <canvas id ="canvas" width="100%" style="position: absolute;"></canvas>
 
 <div id="toolbar">
@@ -24,19 +26,19 @@
     </div>
     <div id="colors">
 
-        <button id = "blue" onClick="changeColor('#2979FF')"></button>
+        <button id = "blue" onClick="changeColor('#1de9b6');changeBackground8()"></button>
         <div class="liner"></div>
 
-        <button id = "teal" onClick="changeColor('#6ECBB3')"></button>
+        <button id = "teal" onClick="changeColor('#00897B');changeBackground7()"></button>
         <div class="liner"></div>
 
-        <button id = "red" onClick="changeColor('#FF4081')"></button>
+        <button id = "red" onClick="changeColor('#F50057');changeBackground6()"></button>
         <div class="liner"></div>
 
-        <button id = "indigo" onClick="changeColor('#283593')"></button>
+        <button id = "yellow" onClick="changeColor('#880E4F');changeBackground5()"></button>
         <div class="liner"></div>
 
-        <button id = "yellow" onClick="changeColor('#FFD600');changeBackground4()"></button>
+        <button id = "indigo" onClick="changeColor('#1565C0');changeBackground4()"></button>
         <div class="liner"></div>
 
         <button id = "slate" onClick="changeColor('#546E7A');changeBackground3()"></button>
@@ -49,7 +51,6 @@
         <div class="liner"></div>
 
         <input type="button" id="clear" value="CLEAR" onClick="window.location.reload()">
-
     </div>
 
 

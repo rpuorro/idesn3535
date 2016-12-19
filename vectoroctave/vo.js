@@ -8,6 +8,7 @@ function init() {
     stage = new createjs.Stage("canvas");
     stage.enableMouseOver(10);
     createjs.Touch.enable(stage);
+    createjs.Sound.registerSound("regdrum1.m4a");
 
 
     //these are variables for the elements that contain the music sounds within artboards. Per CreatejsAPI, originally used as text elements hence "label".
@@ -28,7 +29,7 @@ function init() {
 
     var label4 = new createjs.Text("g", "95px webdings", "#989fa8");
     label4.x = 300;
-    label4.y =50;
+    label4.y = 50;
     label4.alpha = .2;
 
     var label5 = new createjs.Text("g", "95px webdings", "#989fa8");
@@ -43,7 +44,7 @@ function init() {
 
     var label7 = new createjs.Text("g", "95px webdings", "#989fa8");
     label7.x = 600;
-    label7.y =  50;
+    label7.y = 50;
     label7.alpha = .2;
 
     var label8 = new createjs.Text("g", "95px webdings", "#989fa8");
@@ -342,6 +343,13 @@ function init() {
     label66.y = 550;
     label66.alpha = .2;
 
+    var label67 = new createjs.Text("percussion", "20px raleway", "#989fa8");
+    label67.x = 800;
+    label67.y = 650;
+    label67.alpha = 1;
+
+
+
 
 // each variable needs its own function, because every trigger-able element within the artboard contains a unique musical note-IE handleInteraction is the function of label1, when label1 is passed over, moog10 synth plays
     label1.on("mousedown", handleInteraction);
@@ -410,7 +418,7 @@ function init() {
     label64.on("mousedown", sixtyfourHandle);
     label65.on("mousedown", sixtyfiveHandle);
     label66.on("mousedown", sixtysixHandle);
-
+    label67.on("click", sixtysevenHandle);
 
 
 
@@ -481,11 +489,11 @@ function init() {
     label64.on("mouseout", fiftyfiveHandle);
     label65.on("mouseout", fiftyfiveHandle);
     label66.on("mouseout", fiftyfiveHandle);
+    label67.on("click", sixtysevenHandle);
 
 
 
-
-    stage.addChild(label1,label2,label3, label4, label5, label6, label7, label8, label9, label10, label11, label12, label13, label14, label15, label16, label17, label18, label19, label20, label21, label22, label23, label24, label25, label26, label27, label28, label29, label30,label31, label32, label33, label34, label35, label36, label37, label38, label39, label40, label41,label42 ,label43 , label44, label45, label46,label47 ,label48 ,label49 ,label50 ,label51,label52 ,label53 ,label54, label55,  label56,label57, label58, label59, label60, label61, label62,label63, label64, label65, label66);
+    stage.addChild(label1,label2,label3, label4, label5, label6, label7, label8, label9, label10, label11, label12, label13, label14, label15, label16, label17, label18, label19, label20, label21, label22, label23, label24, label25, label26, label27, label28, label29, label30,label31, label32, label33, label34, label35, label36, label37, label38, label39, label40, label41,label42 ,label43 , label44, label45, label46,label47 ,label48 ,label49 ,label50 ,label51,label52 ,label53 ,label54, label55,  label56,label57, label58, label59, label60, label61, label62,label63, label64, label65, label66, label67);
     stage.update();
     createjs.Ticker.addEventListener("tick");
 }
@@ -493,333 +501,341 @@ function init() {
 var audio = document.createElement('audio');
 
 function handleInteraction(event) {
-        event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
-        var audio = new Audio('piano2.wav');
-        audio.play();
+    event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
+    var audio = new Audio('piano2.wav');
+    audio.play();
     //document.getElementById("canvas").style.background = "#40444f";
+}
+function nextHandle(event) {
+    event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
+    var audio = new Audio('piano5.wav');
+    audio.play();
+    audio.volume=.5;
+    event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
+    //document.getElementById("canvas").style.background = "#263238";
 
-    }
-    function nextHandle(event) {
-        event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
-        var audio = new Audio('piano5.wav');
-        audio.play();
-        audio.volume=.5;
-        event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
-         //document.getElementById("canvas").style.background = "#263238";
 
+}
+function thirdHandle(event) {
+    event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
+    audio = new Audio('singlenotepiano2.wav');
+    audio.play();
+    audio.volume=.5;
+    event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
 
-    }
-    function thirdHandle(event) {
-        event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
-        audio = new Audio('singlenotepiano2.wav');
-        audio.play();
-        audio.volume=.5;
-        event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
+}
+function fourthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    audio = new Audio('048_ped_h.wav');
+    audio.play();
+    audio.volume=.5;
 
-    }
-    function fourthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        audio = new Audio('048_ped_h.wav');
-        audio.play();
-        audio.volume=.5;
+}
+function fifthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Tuning Fork Piano ff C3.wav');
+    audio.play();
+    audio.volume=.5;
 
-    }
-    function fifthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('Tuning Fork Piano ff C3.wav');
-        audio.play();
-        audio.volume=.5;
+}
+function sixthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('highchordstrum.m4a');
+    audio.play();
+    audio.volume=1;
 
-    }
-    function sixthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('highchordstrum.m4a');
-        audio.play();
-        audio.volume=1;
+}
+function seventhHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarg.m4a');
+    audio.play();
+    audio.volume=.5;
 
-    }
-    function seventhHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarg.m4a');
-        audio.play();
-        audio.volume=.5;
+}
+function eighthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('stringsync1.wav');
+    audio.play();
+    audio.volume=.5;
 
-    }
-    function eighthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('stringsync1.wav');
-        audio.play();
-        audio.volume=.5;
+}
+function ninthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('middlegacoustic.m4a');
+    audio.play();
+    audio.volume=1;
 
-    }
-    function ninthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('middlegacoustic.m4a');
-        audio.play();
-        audio.volume=1;
+}
+function tenthHandle (event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('VI1-L_legato_f_C4.wav');
+    audio.play();
+    audio.volume=.5;
 
-    }
-    function tenthHandle (event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('VI1-L_legato_f_C4.wav');
-        audio.play();
-        audio.volume=.5;
+}
+function eleventhHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Tibetan Bowl 01.wav');
+    audio.play();
+}
+function twelfthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Planetary Chord C2.wav');
+    audio.play();
+    audio.volume=.5;
 
-    }
-    function eleventhHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('Tibetan Bowl 01.wav');
-        audio.play();
-    }
-    function twelfthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('Planetary Chord C2.wav');
-        audio.play();
-        audio.volume=.5;
-
-    }
-    function thirteenthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('mid12stringstrum.m4a');
-        audio.play();
-    }
-    function fourteenthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('stringsync1.wav');
-        audio.play();
-    }function fifteenthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('Soft Crunchy D2.wav');
-        audio.play();
-    }function sixteenthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('17f7aE3 M.wav');
-        audio.play();
-    }function seventeenthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('low1.wav');
-        audio.play();
-    }function eighteenthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('Soft Crunchy G2.wav');
-        audio.play();
-    }function nineteenthHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('2lowoctvio.wav');
-        audio.play();
-    }function twentyHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('lowoctviolin.wav');
-        audio.play();
-    }function twentyoneHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('low1.wav');
-        audio.play();
-    }function twentytwoHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('low2piano.wav');
-        audio.play();
-    }function twentythreeHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('lowoctviolin.wav');
-        audio.play();
-    }function twentyfourHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('low3piano.wav');
-        audio.play();
-    }function twentyfiveHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('036_ped_h.wav', 'chordc2.m4a');
-        audio.play();
+}
+function thirteenthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('mid12stringstrum.m4a');
+    audio.play();
+}
+function fourteenthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('stringsync1.wav');
+    audio.play();
+}function fifteenthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Soft Crunchy D2.wav');
+    audio.play();
+}function sixteenthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('17f7aE3 M.wav');
+    audio.play();
+}function seventeenthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('low1.wav');
+    audio.play();
+}function eighteenthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Soft Crunchy G2.wav');
+    audio.play();
+}function nineteenthHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('2lowoctvio.wav');
+    audio.play();
+}function twentyHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('lowoctviolin.wav');
+    audio.play();
+}function twentyoneHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('low1.wav');
+    audio.play();
+}function twentytwoHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('low2piano.wav');
+    audio.play();
+}function twentythreeHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('lowoctviolin.wav');
+    audio.play();
+}function twentyfourHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('low3piano.wav');
+    audio.play();
+}function twentyfiveHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('036_ped_h.wav', 'chordc2.m4a');
+    audio.play();
     audio.volume=1;
 
 }function twentysixHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('041_ped_h.wav');
-        audio.play();
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('041_ped_h.wav');
+    audio.play();
     audio.volume=1;
 
-}function twentysevenHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('043_ped_mf.wav');
-        audio.play();
+}function twentysevenHandle(event) {event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('043_ped_mf.wav');
+    audio.play();
     audio.volume=1;
 
 }function twentyeightHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('Modular Strings C2.wav');
-        audio.play();
-        audio.volume=.4;
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Modular Strings C2.wav');
+    audio.play();
+    audio.volume=.4;
 
 }function twentynineHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('Pad Room Pluck D2.wav');
-        audio.volume=.4;
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Pad Room Pluck D2.wav');
+    audio.volume=.4;
 
     audio.play();
-    }function thirtyHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('050_ped_mf.wav');
-        audio.play();
-       audio.volume=.8;
+}function thirtyHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('050_ped_mf.wav');
+    audio.play();
+    audio.volume=.8;
 
 }function thirtyoneHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('Bellsp48.m4a');
-        audio.play();
-        audio.volume=.5;
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Bellsp48.m4a');
+    audio.play();
+    audio.volume=.5;
 
 }function thirtytwoHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('withpiano2.wav');
-        audio.play();
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('withpiano2.wav');
+    audio.play();
 
 }function thirtythreeHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('Soft Crunchy D2.wav');
-        audio.play();
-       audio.volume=.5;
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Soft Crunchy D2.wav');
+    audio.play();
+    audio.volume=.5;
 
 }function thirtyfourHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('08n7aG2.wav');
-        audio.play();
-    }function thirtyfiveHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('low2piano.wav');
-        audio.play();
-    }function thirtysixHandle(event) {
-        event.target.alpha = event.type == "mouseover" ? 1 : 0.5;
-        var audio = new Audio('048_ped_s.wav');
-        audio.play();
-    }function thirtysevenHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('048_ped_s.wav');
-        audio.play();
-    }function thirtyeightHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('050_ped_mf.wav');
-        audio.play();
-    }function thirtynineHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('050_ped_mf.wav');
-        audio.play();
-    }function fortyHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('052_ped_h.wav');
-        audio.play();
-        audio.volume=.5;
-
-}function fortyoneHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('048_ped_s.wav');
+    audio.play();
+}function thirtyfiveHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('048_ped_s.wav');
+    audio.play();
+}function thirtysixHandle(event) {
+    event.target.alpha = event.type == "mouseover" ? 1 : 0.5;
+    var audio = new Audio('050_ped_mf.wav');
+    audio.play();
+}function thirtysevenHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('050_ped_mf.wav');
+    audio.play();
+}function thirtyeightHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
     var audio = new Audio('052_ped_h.wav');
     audio.play();
-    }function fortytwoHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('076_ped_h.wav');
-        audio.play();
-        audio.volume=.5;
+}function thirtynineHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('052_ped_h.wav');
+    audio.play();
+}function fortyHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('076_ped_h.wav');
+    audio.play();
+    audio.volume=.5;
+
+}function fortyoneHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('076_ped_h.wav');
+    audio.play();
+}function fortytwoHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('076_ped_h.wav');
+    audio.play();
+    audio.volume=.5;
 
 }function fortythreeHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('076_E4KM56_H.wav');
+    var audio = new Audio('084_C5KM56_S.wav');
     audio.play();
     audio.volume=.5;
-    }function fortyfourHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('084_C5KM56_S.wav');
-        audio.play();
-    audio.volume=.5;
-    }function fortyfiveHandle(event) {
-        event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
-        var audio = new Audio('036_ped_h.wav');
-        audio.play();
-    }function fortysixHandle(event) {
-        event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
-        audio = new Audio('piano5.wav');
-        audio.play();
-    }function fortysevenHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('singlenotepiano2.wav');
-        audio.play();
-    }function fortyeightHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fortynineHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftyHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftyoneHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftytwoHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftythreeHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftyfourHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftyfiveHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftysixHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftysevenHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftyeightHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function fiftynineHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function sixtyHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function sixtyoneHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function sixtytwoHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function sixtythreeHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function sixtyfourHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function sixtyfiveHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }function sixtysixHandle(event) {
-        event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-        var audio = new Audio('guitarooo3.m4a');
-        audio.play();
-    }
 
+}function fortyfourHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('084_C5KM56_S.wav');
+    audio.play();
+    audio.volume=.5;
+
+}function fortyfiveHandle(event) {
+    event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
+    var audio = new Audio('35m2aF6.wav');
+    audio.play();
+}function fortysixHandle(event) {
+    event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
+    audio = new Audio('34f2aE6.wav');
+    audio.play();
+}function fortysevenHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('084_C5KM56_S.wav');
+    audio.play();
+}function fortyeightHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('34f7aA4 M.wav');
+    audio.play();
+}function fortynineHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('25m2aG5.wav');
+    audio.play();
+}function fiftyHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Vintage Synth Viola C4.wav');
+    audio.play();
+}function fiftyoneHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('Vintage Synth Viola G4.wav');
+    audio.play();
+}function fiftytwoHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('VI1-L_legato_f_E4.wav');
+    audio.play();
+}function fiftythreeHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('VI1-L_legato_f_D4.wav');
+    audio.play();
+}function fiftyfourHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('STRNG48C2-left.m4a');
+    audio.play();
+}function fiftyfiveHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function fiftysixHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function fiftysevenHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function fiftyeightHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function fiftynineHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function sixtyHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function sixtyoneHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function sixtytwoHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function sixtythreeHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function sixtyfourHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function sixtyfiveHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function sixtysixHandle(event) {
+    event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
+    var audio = new Audio('guitarooo3.m4a');
+    audio.play();
+}function sixtysevenHandle(event) {
+    event.target.alpha = (event.type == "click");
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 10, volume: 1});
+    createjs.Sound.play("regdrum1.m4a", ppc);
+    createjs.Sound.sound.play(ppc);
+    muted=false;
+
+
+    this.createjs = this.createjs || {};
+}
 
 var radius = 1;
 var dragging = false;
@@ -891,6 +907,7 @@ function changeColor(color) {
     context.strokeStyle = color;
     context.fillStyle = color;
 }
+
 
 
 $.fn.drawTouch = function() {

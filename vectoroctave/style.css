@@ -409,3 +409,14 @@ input {
     opacity: 0.5;
 
 }
+
+audio {
+    position: fixed;
+          top: 50%;
+    background-color: #95B9C7;
+
+
+    height:200px;
+}
+
+

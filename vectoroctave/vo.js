@@ -8,344 +8,352 @@ function init() {
     stage = new createjs.Stage("canvas");
     stage.enableMouseOver(10);
     createjs.Touch.enable(stage);
-    createjs.Sound.registerSound("regdrum1.m4a");
+    createjs.Sound.registerSound("NM Dubstep Bomb 8bts 66bpm.wav");
+    createjs.Sound.registerSound("daniel-desimon-&-ayami-okamura_percussion-loop-4_percussion_loop_85.wav.wav");
+    createjs.Sound.registerSound("Designer Beat 05c 120.wav");
+    createjs.Sound.registerSound("Fire Roar.wav");
+    createjs.Sound.registerSound("thunderr.m4a");
+    createjs.Sound.registerSound("jungle.m4a");
 
+
+
+    document.getElementById("dl").addEventListener('click', dlCanvas, false);
 
     //these are variables for the elements that contain the music sounds within artboards. Per CreatejsAPI, originally used as text elements hence "label".
-    var label1 = new createjs.Text("g", "95px webdings", "#989fa8");
+    var label1 = new createjs.Text("g", "120px webdings", "#989fa8");
     label1.x = 0;
-    label1.y = 50;
+    label1.y = 0;
     label1.alpha = .2;
 
-    var label2 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label2.x = 100;
-    label2.y = 50;
+    var label2 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label2.x = 125;
+    label2.y = 0;
     label2.alpha = .2;
 
-    var label3 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label3.x = 200;
-    label3.y = 50;
+    var label3 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label3.x = 250;
+    label3.y = 0;
     label3.alpha = .2;
 
-    var label4 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label4.x = 300;
-    label4.y = 50;
+    var label4 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label4.x = 375;
+    label4.y = 0;
     label4.alpha = .2;
 
-    var label5 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label5.x = 400;
-    label5.y = 50;
+    var label5 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label5.x = 500;
+    label5.y = 0;
     label5.alpha = .2;
 
-    var label6 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label6.x = 500;
-    label6.y = 50;
+    var label6 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label6.x = 625;
+    label6.y = 0;
     label6.alpha = .2;
 
-    var label7 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label7.x = 600;
-    label7.y = 50;
+    var label7 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label7.x = 750;
+    label7.y = 0;
     label7.alpha = .2;
 
-    var label8 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label8.x = 700;
-    label8.y = 50;
+    var label8 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label8.x = 875;
+    label8.y = 0;
     label8.alpha = .2;
 
-    var label9 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label9.x = 800;
-    label9.y = 50;
+    var label9 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label9.x = 1000;
+    label9.y = 0;
     label9.alpha = .2;
 
-    var label10 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label10.x = 900;
-    label10.y = 50;
+    var label10 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label10.x = 1125;
+    label10.y = 0;
     label10.alpha = .2;
 
-    var label11 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label11.x = 1000;
-    label11.y = 50;
+    var label11 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label11.x = 1250;
+    label11.y = 0;
     label11.alpha = .2;
 
-    var label12 = new createjs.Text("g", "95px webdings", "#989fa8");
+    var label12 = new createjs.Text("g", "120px webdings", "#989fa8");
     label12.x = 0;
-    label12.y = 150;
+    label12.y = 125;
     label12.alpha = .2;
 
-    var label13 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label13.x = 100;
-    label13.y = 150;
+    var label13 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label13.x = 125;
+    label13.y = 125;
     label13.alpha = .2;
 
-    var label14 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label14.x = 200;
-    label14.y = 150;
+    var label14 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label14.x = 250;
+    label14.y = 125;
     label14.alpha = .2;
 
-    var label15 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label15.x = 300;
-    label15.y = 150;
+    var label15 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label15.x = 375;
+    label15.y = 125;
     label15.alpha = .2;
 
-    var label16 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label16.x = 400;
-    label16.y = 150;
+    var label16 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label16.x = 500;
+    label16.y = 125;
     label16.alpha = .2;
 
-    var label17 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label17.x = 500;
-    label17.y = 150;
+    var label17 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label17.x = 625;
+    label17.y = 125;
     label17.alpha = .2;
 
-    var label18 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label18.x = 600;
-    label18.y = 150;
+    var label18 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label18.x = 750;
+    label18.y = 125;
     label18.alpha = .2;
 
-    var label19 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label19.x = 700;
-    label19.y = 150;
+    var label19 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label19.x = 875;
+    label19.y = 125;
     label19.alpha = .2;
 
-    var label20 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label20.x = 800;
-    label20.y = 150;
+    var label20 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label20.x = 1000;
+    label20.y = 125;
     label20.alpha = .2;
 
-    var label21 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label21.x = 900;
-    label21.y = 150;
+    var label21 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label21.x = 1125;
+    label21.y = 125;
     label21.alpha = .2;
 
-    var label22 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label22.x = 1000;
-    label22.y = 150;
+    var label22 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label22.x = 1250;
+    label22.y = 125;
     label22.alpha = .2;
-    var label23 = new createjs.Text("g", "95px webdings", "#989fa8");
+    var label23 = new createjs.Text("g", "120px webdings", "#989fa8");
     label23.x = 0;
     label23.y = 250;
     label23.alpha = .2;
 
-    var label24 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label24.x = 100;
+    var label24 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label24.x = 125;
     label24.y = 250;
     label24.alpha = .2;
 
-    var label25 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label25.x = 200;
+    var label25 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label25.x = 250;
     label25.y = 250;
     label25.alpha = .2;
 
-    var label26 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label26.x = 300;
+    var label26 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label26.x = 375;
     label26.y = 250;
     label26.alpha = .2;
 
-    var label27 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label27.x = 400;
+    var label27 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label27.x = 500;
     label27.y = 250;
     label27.alpha = .2;
 
-    var label28 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label28.x = 500;
+    var label28 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label28.x = 625;
     label28.y = 250;
     label28.alpha = .2;
 
-    var label29 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label29.x = 600;
+    var label29 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label29.x = 750;
     label29.y = 250;
     label29.alpha = .2;
 
-    var label30 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label30.x = 700;
+    var label30 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label30.x = 875;
     label30.y = 250;
     label30.alpha = .2;
 
-    var label31 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label31.x = 800;
+    var label31 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label31.x = 1000;
     label31.y = 250;
     label31.alpha = .2;
 
-    var label32 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label32.x = 900;
+    var label32 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label32.x = 1125;
     label32.y = 250;
     label32.alpha = .2;
 
-    var label33 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label33.x = 1000;
+    var label33 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label33.x = 1250;
     label33.y = 250;
     label33.alpha = .2;
 
-    var label34 = new createjs.Text("g", "95px webdings", "#989fa8");
+    var label34 = new createjs.Text("g", "120px webdings", "#989fa8");
     label34.x = 0;
-    label34.y = 350;
+    label34.y = 375;
     label34.alpha = .2;
 
-    var label35 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label35.x = 100;
-    label35.y = 350;
+    var label35 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label35.x = 125;
+    label35.y = 375;
     label35.alpha = .2;
 
-    var label36 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label36.x = 200;
-    label36.y = 350;
+    var label36 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label36.x = 250;
+    label36.y = 375;
     label36.alpha = .2;
 
-    var label37 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label37.x = 300;
-    label37.y = 350;
+    var label37 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label37.x = 375;
+    label37.y = 375;
     label37.alpha = .2;
 
-    var label38 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label38.x = 400;
-    label38.y = 350;
+    var label38 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label38.x = 500;
+    label38.y = 375;
     label38.alpha = .2;
 
-    var label39 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label39.x = 500;
-    label39.y = 350;
+    var label39 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label39.x = 625;
+    label39.y = 375;
     label39.alpha = .2;
 
-    var label40 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label40.x = 600;
-    label40.y = 350;
+    var label40 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label40.x = 750;
+    label40.y = 375;
     label40.alpha = .2;
 
 
-    var label41 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label41.x = 700;
-    label41.y = 350;
+    var label41 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label41.x = 875;
+    label41.y = 375;
     label41.alpha = .2;
 
-    var label42 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label42.x = 800;
-    label42.y = 350;
+    var label42 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label42.x = 1000;
+    label42.y = 375;
     label42.alpha = .2;
 
-    var label43 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label43.x = 900;
-    label43.y = 350;
+    var label43 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label43.x = 1125;
+    label43.y = 375;
     label43.alpha = .2;
 
-    var label44 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label44.x = 1000;
-    label44.y = 350;
+    var label44 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label44.x = 1250;
+    label44.y = 375;
     label44.alpha = .2;
 
-    var label45 = new createjs.Text("g", "95px webdings", "#989fa8");
+    var label45 = new createjs.Text("g", "120px webdings", "#989fa8");
     label45.x = 0;
-    label45.y = 450;
+    label45.y = 500;
     label45.alpha = .2;
 
-    var label46 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label46.x = 100;
-    label46.y = 450;
+    var label46 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label46.x = 125;
+    label46.y = 500;
     label46.alpha = .2;
 
-    var label47 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label47.x = 200;
-    label47.y = 450;
+    var label47 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label47.x = 250;
+    label47.y = 500;
     label47.alpha = .2;
 
-    var label48 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label48.x = 300;
-    label48.y = 450;
+    var label48 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label48.x = 375;
+    label48.y = 500;
     label48.alpha = .2;
 
-    var label49 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label49.x = 400;
-    label49.y = 450;
+    var label49 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label49.x = 500;
+    label49.y = 500;
     label49.alpha = .2;
 
-    var label50 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label50.x = 500;
-    label50.y = 450;
+    var label50 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label50.x = 625;
+    label50.y = 500;
     label50.alpha = .2;
 
 
-    var label51 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label51.x = 600;
-    label51.y = 450;
+    var label51 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label51.x = 750;
+    label51.y = 500;
     label51.alpha = .2;
 
-    var label52 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label52.x = 700;
-    label52.y = 450;
+    var label52 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label52.x = 875;
+    label52.y = 500;
     label52.alpha = .2;
 
-    var label53 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label53.x = 800;
-    label53.y = 450;
+    var label53 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label53.x = 1000;
+    label53.y = 500;
     label53.alpha = .2;
 
-    var label54 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label54.x = 900;
-    label54.y = 450;
+    var label54 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label54.x = 1125;
+    label54.y = 500;
     label54.alpha = .2;
 
-    var label55 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label55.x = 1000;
-    label55.y = 450;
+    var label55 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label55.x = 1250;
+    label55.y = 500;
     label55.alpha = .2;
 
-    var label56 = new createjs.Text("g", "95px webdings", "#989fa8");
+    var label56 = new createjs.Text("g", "120px webdings", "#989fa8");
     label56.x = 0;
-    label56.y = 550;
+    label56.y = 625;
     label56.alpha = .2;
 
-    var label57 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label57.x = 100;
-    label57.y = 550;
+    var label57 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label57.x = 125;
+    label57.y = 625;
     label57.alpha = .2;
 
-    var label58 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label58.x = 200;
-    label58.y = 550;
+    var label58 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label58.x = 250;
+    label58.y = 625;
     label58.alpha = .2;
 
-    var label59 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label59.x = 300;
-    label59.y = 550;
+    var label59 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label59.x = 375;
+    label59.y = 625;
     label59.alpha = .2;
 
-    var label60 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label60.x = 400;
-    label60.y = 550;
+    var label60 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label60.x = 500;
+    label60.y = 625;
     label60.alpha = .2;
 
-    var label61 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label61.x = 500;
-    label61.y = 550;
+    var label61 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label61.x = 625;
+    label61.y = 625;
     label61.alpha = .2;
 
-    var label62 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label62.x = 600;
-    label62.y = 550;
+    var label62 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label62.x = 750;
+    label62.y = 625;
     label62.alpha = .2;
 
-    var label63 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label63.x = 700;
-    label63.y = 550;
+    var label63 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label63.x = 875;
+    label63.y = 625;
     label63.alpha = .2;
 
-    var label64 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label64.x = 800;
-    label64.y = 550;
+    var label64 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label64.x = 1000;
+    label64.y = 625;
     label64.alpha = .2;
 
-    var label65 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label65.x = 900;
-    label65.y = 550;
+    var label65 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label65.x = 1125;
+    label65.y = 625;
     label65.alpha = .2;
 
-    var label66 = new createjs.Text("g", "95px webdings", "#989fa8");
-    label66.x = 1000;
-    label66.y = 550;
+    var label66 = new createjs.Text("g", "120px webdings", "#989fa8");
+    label66.x = 1250;
+    label66.y = 625;
     label66.alpha = .2;
 
     var label67 = new createjs.Text("percussion", "20px raleway", "#989fa8");
     label67.x = 800;
-    label67.y = 650;
+    label67.y = 770;
     label67.alpha = 1;
 
 
@@ -478,17 +486,17 @@ function init() {
     label53.on("mouseout", fiftythreeHandle);
     label54.on("mouseout", fiftyfourHandle);
     label55.on("mouseout", fiftyfiveHandle);
-    label56.on("mouseout", fiftyfiveHandle);
-    label57.on("mouseout", fiftyfiveHandle);
-    label58.on("mouseout", fiftyfiveHandle);
-    label59.on("mouseout", fiftyfiveHandle);
-    label60.on("mouseout", fiftyfiveHandle);
-    label61.on("mouseout", fiftyfiveHandle);
-    label62.on("mouseout", fiftyfiveHandle);
-    label63.on("mouseout", fiftyfiveHandle);
-    label64.on("mouseout", fiftyfiveHandle);
-    label65.on("mouseout", fiftyfiveHandle);
-    label66.on("mouseout", fiftyfiveHandle);
+    label56.on("mouseout", fiftysixHandle);
+    label57.on("mouseout", fiftysevenHandle);
+    label58.on("mouseout", fiftyeightHandle);
+    label59.on("mouseout", fiftynineHandle);
+    label60.on("mouseout", sixtyHandle);
+    label61.on("mouseout", sixtyoneHandle);
+    label62.on("mouseout", sixtytwoHandle);
+    label63.on("mouseout", sixtythreeHandle);
+    label64.on("mouseout", sixtyfourHandle);
+    label65.on("mouseout", sixtyfiveHandle);
+    label66.on("mouseout", sixtysixHandle);
     label67.on("click", sixtysevenHandle);
 
 
@@ -736,104 +744,148 @@ function fourteenthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
     var audio = new Audio('084_C5KM56_S.wav');
     audio.play();
-    audio.volume=.5;
+    audio.volume=.3;
 
 }function fortyfiveHandle(event) {
     event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
-    var audio = new Audio('35m2aF6.wav');
+    var audio = new Audio('Kingdom Of The Sun C5.wav');
     audio.play();
+    audio.volume=.3;
+
 }function fortysixHandle(event) {
     event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
-    audio = new Audio('34f2aE6.wav');
+    audio = new Audio('BeachBells48.wav');
     audio.play();
+    audio.volume=.2;
+
 }function fortysevenHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('084_C5KM56_S.wav');
+    var audio = new Audio('Low Additive Harmonic C3.wav');
     audio.play();
+    audio.volume=.3;
+
 }function fortyeightHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('34f7aA4 M.wav');
+    var audio = new Audio('LA Forever 36.wav');
     audio.play();
+    audio.volume=.3;
+
 }function fortynineHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('25m2aG5.wav');
+    var audio = new Audio('LA Forever 48.m4a');
     audio.play();
+    audio.volume=.3;
+
 }function fiftyHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('Vintage Synth Viola C4.wav');
+    var audio = new Audio('Rack Chord C2.wav');
     audio.play();
+    audio.volume=.3;
+
 }function fiftyoneHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
     var audio = new Audio('Vintage Synth Viola G4.wav');
     audio.play();
+    audio.volume=.3;
+
 }function fiftytwoHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
     var audio = new Audio('VI1-L_legato_f_E4.wav');
     audio.play();
+    audio.volume=.3;
+
 }function fiftythreeHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
     var audio = new Audio('VI1-L_legato_f_D4.wav');
     audio.play();
+    audio.volume=.3;
+
 }function fiftyfourHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
     var audio = new Audio('STRNG48C2-left.m4a');
     audio.play();
+    audio.volume=.5;
+
 }function fiftyfiveHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('BeachBells48.wav');
     audio.play();
 }function fiftysixHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('Bellsp48.m4a');
     audio.play();
 }function fiftysevenHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('06f7aF2.wav');
     audio.play();
 }function fiftyeightHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('036_ped_mf.wav');
     audio.play();
 }function fiftynineHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('040_ped_h.wav');
     audio.play();
 }function sixtyHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('048_ped_s.wav');
     audio.play();
 }function sixtyoneHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('050_ped_mf.wav');
     audio.play();
 }function sixtytwoHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('052_ped_h.wav');
     audio.play();
 }function sixtythreeHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('80s Digital Synth Bars C2.wav');
     audio.play();
 }function sixtyfourHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('06f7aF2.wav');
     audio.play();
 }function sixtyfiveHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('low3piano.wav');
     audio.play();
 }function sixtysixHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
-    var audio = new Audio('guitarooo3.m4a');
+    var audio = new Audio('low2piano.wav');
     audio.play();
 }function sixtysevenHandle(event) {
     event.target.alpha = (event.type == "click");
-    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 10, volume: 1});
-    createjs.Sound.play("regdrum1.m4a", ppc);
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
+    createjs.Sound.play("NM Dubstep Bomb 8bts 66bpm.wav", ppc);
     createjs.Sound.sound.play(ppc);
-    muted=false;
 
+}function sixtyeigthHandle(event) {
+    event.target.alpha = (event.type == "click");
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
+    createjs.Sound.play("daniel-desimon-&-ayami-okamura_percussion-loop-4_percussion_loop_85.wav.wav", ppc);
+    createjs.Sound.sound.play(ppc);
 
+}function sixtynineHandle(event) {
+    event.target.alpha = (event.type == "click");
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
+    createjs.Sound.play("Designer Beat 05c 120.wav", ppc);
+    createjs.Sound.sound.play(ppc);
+}function seventyHandle(event) {
+    event.target.alpha = (event.type == "click");
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 2, volume: 1});
+    createjs.Sound.play("jungle.m4a", ppc);
+    createjs.Sound.sound.play(ppc);
+}function seventyoneHandle(event) {
+    event.target.alpha = (event.type == "click");
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
+    createjs.Sound.play("thunderr.m4a", ppc);
+    createjs.Sound.sound.play(ppc);
+}function seventytwoHandle(event) {
+    event.target.alpha = (event.type == "click");
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
+    createjs.Sound.play("Fire Roar.wav", ppc);
+    createjs.Sound.sound.play(ppc);
     this.createjs = this.createjs || {};
 }
 
@@ -862,6 +914,7 @@ var putPoint = function (e) {
 var engage = function(e) {
     dragging = true;
     putPoint(e);
+
 };
 var disengage = function () {
     dragging = false;
@@ -879,28 +932,28 @@ canvas.addEventListener('touchend', disengage);
 
 
 function changeBackground1(){
-        document.getElementById("canvas").style.background = "#382e36";
+        document.getElementById("canvas").style.background = "#1de9b6";
 }
 function changeBackground2(){
         document.getElementById("canvas").style.background = "#cbd1ef";
 }
 function changeBackground3(){
-    document.getElementById("canvas").style.background = "#332823";
+    document.getElementById("canvas").style.background = "#d0d2d8";
 }
 function changeBackground4(){
-    document.getElementById("canvas").style.background = "#bae8d9";
+    document.getElementById("canvas").style.background = "#ccd4d5";
 }
 function changeBackground5(){
     document.getElementById("canvas").style.background = "#bfcee0";
 }
 function changeBackground6(){
-    document.getElementById("canvas").style.background = "#ffffff";
+    document.getElementById("canvas").style.background = "#2f3649";
 }
 function changeBackground7(){
     document.getElementById("canvas").style.background = "#cbd1ef";
 }
 function changeBackground8(){
-    document.getElementById("canvas").style.background = "#332823";
+    document.getElementById("canvas").style.background = "#5e7398";
 }
 
 function changeColor(color) {
@@ -931,3 +984,14 @@ window.addEventListener("keydown", function(e) {
         e.preventDefault();
     }
 }, false);
+
+function dlCanvas() {
+    var dt = canvas.toDataURL('image/png');
+    /* Change MIME type to trick the browser to downlaod the file instead of displaying it */
+    dt = dt.replace(/^data:image\/[^;]*/, 'data:application/octet-stream');
+
+    /* In addition to <a>'s "download" attribute, you can define HTTP-style headers */
+    dt = dt.replace(/^data:application\/octet-stream/, 'data:application/octet-stream;headers=Content-Disposition%3A%20attachment%3B%20filename=Canvas.png');
+
+    this.href = dt;
+}

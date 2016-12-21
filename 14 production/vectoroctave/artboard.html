@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vectoroctave</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel ="stylesheet" href="style.css">
+    <script src="createjs-2015.11.26.min.js"></script>
+
+    <script src ="SoundJS-master/lib/soundjs-0.6.2.combined.js"></script>
+    <script src="/EaselJS-master/lib/easeljs-NEXT.combined.js"></script>
+    <script src="SoundJS-master/src/soundjs/htmlaudio/HTMLAudioPlugin.js"></script>
+</head>
+<body onload="init();">
+<div class=wrap>
+<canvas id ="canvas" width="100%" style="position: absolute;"></canvas>
+
+
+<div id="toolbar">
+    <div id="rad">
+        <div id="wrapper"><div id="radval"><div class="wrapper"></div></div></div>
+        <div id="decrad" class="radcontrol">-</div>
+        <div id="incrad" class="radcontrol">+</div>
+
+
+    </div>
+    <div id="colors">
+
+        <button id = "blue" onClick="changeColor('#1de9b6');changeBackground8()"></button>
+        <div class="liner"></div>
+
+        <button id = "teal" onClick="changeColor('#00897B');changeBackground7()"></button>
+        <div class="liner"></div>
+
+        <button id = "red" onClick="changeColor('#F50057');changeBackground6()"></button>
+        <div class="liner"></div>
+
+        <button id = "yellow" onClick="changeColor('#880E4F');changeBackground5()"></button>
+        <div class="liner"></div>
+
+        <button id = "indigo" onClick="changeColor('#1565C0');changeBackground4()"></button>
+        <div class="liner"></div>
+
+        <button id = "slate" onClick="changeColor('#546E7A');changeBackground3()"></button>
+        <div class="liner"></div>
+
+        <button id = "white" onClick="changeColor('#ffffff');changeBackground2()"></button>
+        <div class="liner"></div>
+
+        <button id = "black" onClick="changeColor('#000000'); changeBackground1()"></button>
+        <div class="liner"></div>
+
+        <input type="button" id="clear" value="X" onClick="window.location.reload()">
+    </div>
+
+        <input type="button" class="percussion1" value="66BPM" onClick="sixtysevenHandle(event)">
+
+        <input type="button" class="percussion1" value="85BPM" onClick="sixtyeigthHandle(event)">
+
+        <input type="button" class="percussion1" value="120BPM" onClick="sixtynineHandle(event)">
+
+    <input type="button" class="effects1" value="URBAN" onClick="seventyHandle(event)">
+
+    <input type="button" class="effects1" value="RAIN" onClick="seventyoneHandle(event)">
+
+    <input type="button" class="effects1" value="FIRE" onClick="seventytwoHandle(event)">
+
+
+
+    <span id="icons">
+        <a href="getinfo.html">
+        <img id="bar_info" src="images/small_info.png"/></a></span>
+
+        <label for="fileInput">
+            <img id="bar_create" src="images/small_open.png">
+        </label>
+
+    <a id="dl" download="Canvas.png">
+        <input type="file" id="fileInput"/>
+        <img id="bar_save" src="images/small_info copy.png" >
+    </a>
+</div>
+</div>
+<script type="text/javascript" src="vo.js"></script>
+<script type="text/javascript" src="radius.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+<script type="text/javascript" src ="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    });
+</script>
+</body>
+</html>
+
+

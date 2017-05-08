@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.519403" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78b2809b-fcae-4b90-a502-d4fc7a343047" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vo.js" afterPath="$PROJECT_DIR$/vo.js" />
+    </list>
+    <ignored path="idesn3535.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="idesn3535">
+      <favorite_root url="file://$USER_HOME$/Downloads/form.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/vectoroctave/047_ped_mf.wav" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=" pen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/ pen.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2pen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/2pen.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13950">
+              <caret line="930" column="32" lean-forward="false" selection-start-line="930" selection-start-column="32" selection-end-line="930" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marketo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/marketo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2670">
+              <caret line="178" column="81" lean-forward="false" selection-start-line="178" selection-start-column="81" selection-end-line="178" selection-end-column="81" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#li#0;n#ul#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#li#0;n#ul#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#4;n#ul#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="di_whitelogo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/di_whitelogo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Screen Shot 2017-01-10 at 12.12.08 PM.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Screen Shot 2017-01-10 at 12.12.08 PM.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>50px</find>
+      <find>120px</find>
+      <find>500</find>
+      <find>d8af6d</find>
+      <find>#a74a3e;</find>
+      <find>mouseout</find>
+      <find>alpha = 1;</find>
+      <find>#CFD8DC;</find>
+      <find>#000033;</find>
+      <find>= .2;</find>
+      <find>= .4;</find>
+      <find>&quot;95px</find>
+      <find>x = 300</find>
+      <find>x = 100</find>
+      <find>x = 3</find>
+      <find>670px</find>
+      <find>.2</find>
+      <find>cursor</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#db4d3f</replace>
+      <replace>#db4d3f;</replace>
+      <replace>stagemouseup</replace>
+      <replace>alpha = .2;</replace>
+      <replace>#283593;</replace>
+      <replace>#9FA8DA;</replace>
+      <replace>#263238;</replace>
+      <replace>label1.y = 50;</replace>
+      <replace>50;</replace>
+      <replace>= .3;</replace>
+      <replace>= .1;</replace>
+      <replace>&quot;#989fa8&quot;</replace>
+      <replace>= .2;</replace>
+      <replace>&quot;97px</replace>
+      <replace>125</replace>
+      <replace>250</replace>
+      <replace>x = 375</replace>
+      <replace>x = 725</replace>
+      <replace>y = 375</replace>
+      <replace>y = 500</replace>
+      <replace>y = 625</replace>
+      <replace>y = 525</replace>
+      <replace>x = 52s</replace>
+      <replace>x = 525</replace>
+      <replace>x = 500</replace>
+      <replace>x = 125</replace>
+      <replace>800px</replace>
+      <replace>x = 250</replace>
+      <replace>0</replace>
+      <replace>&quot;.&quot;, &quot;120px helvetica, arial, sans-serif&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01 html and css refresher/05 registration form/jquery.js" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/05 registration form/formofhell.html" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/05 registration form/form.css" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/05 registration form/form_assignment.html" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/05 registration form/form.js" />
+        <option value="$USER_HOME$/Downloads/form 7.html" />
+        <option value="$PROJECT_DIR$/06 jquery/form.js" />
+        <option value="$PROJECT_DIR$/06 jquery/form.css" />
+        <option value="$USER_HOME$/Downloads/0701-demo-01.html" />
+        <option value="$PROJECT_DIR$/jquery.js" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/05 registration form/146 exercise - distribute.html" />
+        <option value="$PROJECT_DIR$/9_13refresher/index.html" />
+        <option value="$PROJECT_DIR$/9_13refresher/style.css" />
+        <option value="$PROJECT_DIR$/06 jquery/form_assignment.html" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/navi.js" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/navigation.js" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/design/design.css" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/design/design.js" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/design/index.html" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/type2/Tschichold_starter/CSS/index.html" />
+        <option value="$PROJECT_DIR$/vectoroctave/info.html" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/type2/Tschichold_starter/index.html" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/index.html" />
+        <option value="$PROJECT_DIR$/poelzig/poelzig.html" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/type2/Tschichold_starter/styles.css" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/style.css" />
+        <option value="$PROJECT_DIR$/poelzig/poelzig.css" />
+        <option value="$PROJECT_DIR$/vectoroctave/vectoroctave.js" />
+        <option value="$PROJECT_DIR$/vectoroctave/colors.js" />
+        <option value="$PROJECT_DIR$/poelzig/index.html" />
+        <option value="$PROJECT_DIR$/1010.html" />
+        <option value="$PROJECT_DIR$/ee.html" />
+        <option value="$PROJECT_DIR$/01 html and css refresher/multiscreen.css" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/EaselJS-master/examples/CurveTo.html" />
+        <option value="$PROJECT_DIR$/vectoroctave/trst.js" />
+        <option value="$PROJECT_DIR$/poelzig/style.css" />
+        <option value="$PROJECT_DIR$/vectoroctave/radius.js" />
+        <option value="$PROJECT_DIR$/vectoroctave/trst.html" />
+        <option value="$PROJECT_DIR$/vectoroctave/getinfo.css" />
+        <option value="$PROJECT_DIR$/vectoroctave/index.html" />
+        <option value="$PROJECT_DIR$/vectoroctave/artboard.html" />
+        <option value="$PROJECT_DIR$/vectoroctave/main.css" />
+        <option value="$PROJECT_DIR$/vectoroctave/getinfo.html" />
+        <option value="$PROJECT_DIR$/vectoroctave/style.css" />
+        <option value="$PROJECT_DIR$/vectoroctave/vo.js" />
+        <option value="$PROJECT_DIR$/marketo.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/vo.js" />
+        <option value="$USER_HOME$/iCloud Drive (Archive)/Lesley/fall2016/typography/poelzig/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1073" />
+    <option name="y" value="319" />
+    <option name="width" value="1245" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers Scope="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType Scope="true" />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idesn3535" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.library.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP Runtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standard" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idesn3535" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idesn3535" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idesn3535" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idesn3535" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery-ui-1.12.1.custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idesn3535" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idesn3535" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Ex_Files_JavaScript_WebDes/Exercise Files/Ch03/03_02/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/rickypuorro/Desktop/Lesley/advanced web/idesn3535/vectoroctave/getinfo.css&#10;sound&#9;null&#9;null&#10;media&#9;FILE&#9;file:///Users/rickypuorro/Desktop/Lesley/advanced web/idesn3535/01 html and css refresher/Formstone-master/dist/js/mediaquery.js&#10;formstone&#9;null&#9;null&#10;nav&#9;FILE&#9;file:///Users/rickypuorro/Desktop/Lesley/advanced web/idesn3535/Formstone-master/dist/js/navigation.js&#10;0&#9;FILE&#9;file:///Users/rickypuorro/Desktop/Lesley/advanced web/idesn3535/01 html and css refresher/053 demo.html" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vectoroctave" />
+      <recent name="$PROJECT_DIR$/poelzigposter" />
+      <recent name="$PROJECT_DIR$/01 html and css refresher/type2" />
+      <recent name="$PROJECT_DIR$/01 html and css refresher" />
+      <recent name="$PROJECT_DIR$/01 html and css refresher/type2/Tschichold_starter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/01 html and css refresher/type2/Tschichold_starter/CSS" />
+      <recent name="$PROJECT_DIR$/01 html and css refresher/type2/Tschichold_starter" />
+      <recent name="$PROJECT_DIR$/01 html and css refresher/type2" />
+      <recent name="$PROJECT_DIR$/01 html and css refresher" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.Formstone-master">
+    <configuration default="false" name="Formstone-master" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/01 html and css refresher/Formstone-master" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/idesn3535/01 html and css refresher/index.html">
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.Formstone-master" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.Formstone-master" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78b2809b-fcae-4b90-a502-d4fc7a343047" name="Default" comment="" />
+      <created>1475008921386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1475008921386</updated>
+      <workItem from="1475008922799" duration="1135000" />
+      <workItem from="1475010277451" duration="56000" />
+      <workItem from="1475284615292" duration="870000" />
+      <workItem from="1475328390834" duration="1037000" />
+      <workItem from="1475363913881" duration="1171000" />
+      <workItem from="1475366346708" duration="20631000" />
+      <workItem from="1475442335287" duration="10467000" />
+      <workItem from="1475453489431" duration="1651000" />
+      <workItem from="1475455197559" duration="500000" />
+      <workItem from="1475455750076" duration="130000" />
+      <workItem from="1475455887148" duration="393000" />
+      <workItem from="1475457341629" duration="1654000" />
+      <workItem from="1475459637101" duration="18679000" />
+      <workItem from="1475479300251" duration="5013000" />
+      <workItem from="1475531936049" duration="93000" />
+      <workItem from="1475532037334" duration="1567000" />
+      <workItem from="1475534398201" duration="1527000" />
+      <workItem from="1475535962888" duration="26259000" />
+      <workItem from="1475837373844" duration="983000" />
+      <workItem from="1476024763000" duration="35434000" />
+      <workItem from="1476200015601" duration="634000" />
+      <workItem from="1476200659551" duration="4000" />
+      <workItem from="1476206322901" duration="12159000" />
+      <workItem from="1476302826011" duration="8384000" />
+      <workItem from="1476481797382" duration="18622000" />
+      <workItem from="1476533116273" duration="8765000" />
+      <workItem from="1476634883890" duration="64275000" />
+      <workItem from="1476808596591" duration="41638000" />
+      <workItem from="1477405647453" duration="72000" />
+      <workItem from="1477415210993" duration="8184000" />
+      <workItem from="1477429305373" duration="431000" />
+      <workItem from="1477881153805" duration="646000" />
+      <workItem from="1478033259509" duration="821000" />
+      <workItem from="1478299983887" duration="18137000" />
+      <workItem from="1478523253349" duration="2039000" />
+      <workItem from="1478609404450" duration="933000" />
+      <workItem from="1478629077837" duration="4368000" />
+      <workItem from="1478806477242" duration="278000" />
+      <workItem from="1478806786909" duration="4296000" />
+      <workItem from="1479149047192" duration="675000" />
+      <workItem from="1479250607813" duration="4812000" />
+      <workItem from="1479339655167" duration="3304000" />
+      <workItem from="1479410856638" duration="4017000" />
+      <workItem from="1479416986666" duration="38660000" />
+      <workItem from="1479732925144" duration="950000" />
+      <workItem from="1479835648112" duration="6375000" />
+      <workItem from="1479843779581" duration="3528000" />
+      <workItem from="1479848152960" duration="6392000" />
+      <workItem from="1479866779441" duration="13719000" />
+      <workItem from="1479883159692" duration="89000" />
+      <workItem from="1479906333310" duration="1621000" />
+      <workItem from="1479927486416" duration="3811000" />
+      <workItem from="1480267818423" duration="207000" />
+      <workItem from="1480268029203" duration="626000" />
+      <workItem from="1480268743861" duration="21101000" />
+      <workItem from="1480333529382" duration="1199000" />
+      <workItem from="1480342545540" duration="12371000" />
+      <workItem from="1480397262739" duration="19000" />
+      <workItem from="1480419360328" duration="3238000" />
+      <workItem from="1480434686730" duration="3978000" />
+      <workItem from="1480443880845" duration="6756000" />
+      <workItem from="1480453016107" duration="2206000" />
+      <workItem from="1480470503327" duration="434000" />
+      <workItem from="1480603091456" duration="2244000" />
+      <workItem from="1480725871047" duration="1633000" />
+      <workItem from="1480731987267" duration="7098000" />
+      <workItem from="1481025024435" duration="6995000" />
+      <workItem from="1481040911599" duration="342000" />
+      <workItem from="1481047889380" duration="12444000" />
+      <workItem from="1481141727974" duration="607000" />
+      <workItem from="1481159324151" duration="506000" />
+      <workItem from="1481223700234" duration="3765000" />
+      <workItem from="1481284546476" duration="27000" />
+      <workItem from="1481284588828" duration="23721000" />
+      <workItem from="1481501087608" duration="27237000" />
+      <workItem from="1481580200976" duration="3588000" />
+      <workItem from="1481629495343" duration="1160000" />
+      <workItem from="1481653421700" duration="13584000" />
+      <workItem from="1481715346394" duration="152000" />
+      <workItem from="1481716995318" duration="1599000" />
+      <workItem from="1481752644065" duration="2763000" />
+      <workItem from="1481890871554" duration="311000" />
+      <workItem from="1481990553079" duration="31490000" />
+      <workItem from="1482044143414" duration="21000" />
+      <workItem from="1482044296294" duration="23000" />
+      <workItem from="1482045317181" duration="56000" />
+      <workItem from="1482057597429" duration="168000" />
+      <workItem from="1482057777780" duration="167000" />
+      <workItem from="1482058008233" duration="84000" />
+      <workItem from="1482058147015" duration="486000" />
+      <workItem from="1482060210009" duration="62000" />
+      <workItem from="1482060308988" duration="125000" />
+      <workItem from="1482061750433" duration="45765000" />
+      <workItem from="1482146626059" duration="44774000" />
+      <workItem from="1482247125425" duration="1212000" />
+      <workItem from="1482281689406" duration="234000" />
+      <workItem from="1482281932919" duration="4000" />
+      <workItem from="1482328706019" duration="627000" />
+      <workItem from="1482347582305" duration="3000" />
+      <workItem from="1482478984893" duration="54000" />
+      <workItem from="1482675549187" duration="1246000" />
+      <workItem from="1482700280744" duration="555000" />
+      <workItem from="1482964243857" duration="14000" />
+      <workItem from="1482964279569" duration="154000" />
+      <workItem from="1482964533249" duration="6000" />
+      <workItem from="1483452569261" duration="949000" />
+      <workItem from="1484063403392" duration="17299000" />
+      <workItem from="1487099069709" duration="1393000" />
+      <workItem from="1487609463304" duration="380000" />
+      <workItem from="1493080258595" duration="1264000" />
+      <workItem from="1494010842938" duration="1240000" />
+      <workItem from="1494131710656" duration="976000" />
+      <workItem from="1494132731909" duration="1249000" />
+      <workItem from="1494136130232" duration="5000" />
+      <workItem from="1494174072744" duration="594000" />
+      <workItem from="1494187062239" duration="334000" />
+      <workItem from="1494208148506" duration="618000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="727431000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1073" y="319" width="1245" height="873" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36144578" sideWeight="0.6299616" order="4" side_tool="true" content_ui="combo" x="1021" y="494" width="732" height="383" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31986144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.50281125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1991404" sideWeight="0.37003842" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.49718875" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18409425" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.4883721" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32695138" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2825465" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976654" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09713574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921028" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.1125" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" x="491" y="319" width="825" height="404" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976654" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31986144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18409425" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09713574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32695138" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12954278" sideWeight="0.6299616" order="4" side_tool="true" content_ui="combo" x="1021" y="494" width="732" height="383" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921028" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.1125" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" x="491" y="319" width="825" height="404" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1991404" sideWeight="0.37003842" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24881235" sideWeight="0.4883721" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2825465" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/vectoroctave/VectorOctave" />
+      <path value="$PROJECT_DIR$/vectoroctave/small_info copy.png" />
+      <path value="$PROJECT_DIR$/small_info copy.png" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/EaselJS-master/examples/CurveTo.html</url>
+          <line>63</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="idesn3535" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="idesn3535" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/RollOverMouseOver.html" />
+    <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/Game/Ship.js" />
+    <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/Game/Game.html" />
+    <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/CurveTo.html" />
+    <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/Masks.html" />
+    <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/Transform_simple.html" />
+    <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/Transform.html" />
+    <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/DragAndDrop_hitArea.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/084_C5KM56_S.wav" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/src/soundjs/htmlaudio/HTMLAudioPlugin.js" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/tutorials/_shared/tutorial.js" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/tutorials/SoundJS and PreloadJS/index.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/tutorials/Basics and Best Practices/index.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/src/soundjs/Sound.js" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/src/soundjs/cordovaaudio/CordovaAudioSoundInstance.js" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/tutorials/Mobile Safe Approach/sample.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/tests/lib/jasmine-2.0.2/jasmine.js" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/trst.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/tutorials/Mobile Safe Approach/index.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/src/soundjs/data/PlayPropsConfig.js" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/small_info.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/small_info copy.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/small_create.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/small_open.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/05n7aE2.wav" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/med_open.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/large_info.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/large_create.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/Artboard 1.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/med_create.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/images/large_open.png" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/tutorials/SoundJS and PreloadJS/preloadjs.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/radius.js" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/SoundJS-master/tutorials/Basics and Best Practices/sample.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/artboard.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/getinfo.css" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/ nice.wav" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/main.css" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/style.css" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/getinfo.html" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/vo.js" />
+    <entry file="file://$PROJECT_DIR$/vectoroctave/index.html" />
+    <entry file="file://$USER_HOME$/iCloud Drive (Archive)/Lesley/fall2016/typography/poelzig/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13950">
+          <caret line="930" column="32" lean-forward="false" selection-start-line="930" selection-start-column="32" selection-end-line="930" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/marketo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="178" column="81" lean-forward="false" selection-start-line="178" selection-start-column="81" selection-end-line="178" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#li#0;n#ul#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#li#0;n#ul#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/di_whitelogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screen Shot 2017-01-10 at 12.12.08 PM.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ pen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/2pen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

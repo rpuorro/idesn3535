@@ -2,11 +2,13 @@ body, html {
     height:100%;
     overflow: hidden;
     margin: auto;
+
 }
 body {
 
     margin: auto;
     cursor: url('images/2pen.png'), default;
+
 }
 
 div.wrap {

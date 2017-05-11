@@ -8,7 +8,6 @@
     <script src="createjs-2015.11.26.min.js"></script>
 
     <script src ="SoundJS-master/lib/soundjs-0.6.2.combined.js"></script>
-    <script src="/EaselJS-master/lib/easeljs-NEXT.combined.js"></script>
     <script src="SoundJS-master/src/soundjs/htmlaudio/HTMLAudioPlugin.js"></script>
 </head>
 <body onload="init();">
@@ -53,18 +52,19 @@
         <input type="button" id="clear" value="X" onClick="window.location.reload()">
     </div>
 
-        <input type="button" class="percussion1" value="66BPM" onClick="sixtysevenHandle(event)">
+    <div id="toolbar_effects_wrapper">
 
+
+        <input type="button" class="percussion1" value="66BPM" onClick="sixtysevenHandle(event)">
         <input type="button" class="percussion1" value="85BPM" onClick="sixtyeigthHandle(event)">
 
         <input type="button" class="percussion1" value="120BPM" onClick="sixtynineHandle(event)">
 
-    <input type="button" class="effects1" value="URBAN" onClick="seventyHandle(event)">
+        <input type="button" class="effects1" value="RAIN" onClick="seventyoneHandle(event)">
 
-    <input type="button" class="effects1" value="RAIN" onClick="seventyoneHandle(event)">
+        <input type="button" class="effects1" value="FIRE" onClick="seventytwoHandle(event)">
 
-    <input type="button" class="effects1" value="FIRE" onClick="seventytwoHandle(event)">
-
+    </div>
 
 
     <span id="icons">
@@ -79,12 +79,14 @@
         <input type="file" id="fileInput"/>
         <img id="bar_save" src="images/small_info copy.png" >
     </a>
+
+    <img id="mini_logo" src="images/mini_logo.jpg"/>
+
 </div>
 </div>
 <script type="text/javascript" src="vo.js"></script>
 <script type="text/javascript" src="radius.js"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
 <script type="text/javascript" src ="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {

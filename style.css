@@ -28,7 +28,7 @@ div.wrap {
 #canvas {
     width: 100%;
     padding: 0;
-    margin:auto;
+    margin-left:auto;
     display: block;
     -webkit-transition: 1s ease-in;
     -moz-transition: 1s ease-in;
@@ -212,6 +212,13 @@ color: #9FA8DA;
     margin-top: 10px;
 }
 
+#spacebefore {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    margin-left: 10px;
+}
+
 #blue {
     float: left;
     display: inline-block;
@@ -222,6 +229,7 @@ color: #9FA8DA;
     stroke: none;
     margin-top: 10px;
     margin-right: 15px;
+    margin-left: 30px;
     background-color: #1DE9B6;
 }
 #blue:hover {
@@ -390,7 +398,7 @@ input {
     stroke: none;
     margin-top: 10px;
     margin-left: 15px;
-    margin-right: 35px;
+    margin-right: 15px;
 }
 #clear:hover {
     display: inline-block;
@@ -402,12 +410,14 @@ input {
 
 
 #bar_create {
-    display: inline-block;
-    float:right;
+    float: right;
+    position: fixed;
+    right: 0;
+    display: block;
     padding: 0;
-    opacity: 1;
+    margin-right: 180px;
+    margin-left: 0;
     margin-top: 3px;
-    margin-right: 20px;
 
 
 }
@@ -415,13 +425,13 @@ input {
     opacity: 0.5;
 }
 #bar_info {
-    display: inline-block;
-    padding-bottom: 15px;
+    float: right;
+    position: fixed;
+    right: 0;
+    display: block;
+    padding: 0;
+    margin-right: 70px;
     margin-top: 3px;
-    margin-right: 10px;
-
-    float:right;
-    opacity: 1;
 
 }
 
@@ -430,26 +440,19 @@ input {
 
 }
 #bar_save{
-    display: inline-block;
-    padding-bottom: 15px;
-    margin-right:-10px;
+    float: right;
+    position: fixed;
+    right: 0;
+    display: block;
+    padding: 0;
+    margin-right: 125px;
     margin-top: 3px;
-    float:right;
-    opacity: 1;
 
 }
 
 #bar_save:hover {
     opacity: 0.5;
 
-}
-audio {
-    position: fixed;
-          top: 50%;
-    background-color: #95B9C7;
-
-
-    height:200px;
 }
 
 #fileInput{
@@ -464,13 +467,37 @@ audio {
 
 }
 
+/*<img id="mini_logo" src="images/small_info.png"/></a></span>*/
+
+#mini_logo {
+    float: right;
+    position: fixed;
+    right: 0;
+    display: block;
+    padding: 0;
+    margin-right: 0;
+
+}
+
+
+#toolbar_effects_wrapper {
+    background-color: #172023;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
 .percussion1 {
     display: inline-block;
     width: 65px;
     float: left;
-    background-color: #263238;
+    background-color: #172023;
     border: 1px solid #9FA8DA;
-    margin-left: 0;
+    margin-right: 10px;
+    margin-left: 20px;
     margin-top: 10px;
     padding: 4px 6px;
     text-align: center;
@@ -485,15 +512,16 @@ audio {
     float: left;
     background-color: #9FA8DA;
     border: 1pt solid #9FA8DA;
-    color: #263238;
+    color: #172023;
 }
 .effects1 {
     display: inline-block;
     width: 65px;
     float: left;
-    background-color: #263238;
+    background-color: #172023;
     border: 1px solid #9FA8DA;
-    margin-left: 0;
+    margin-right: 10px;
+    margin-left: 20px;
     margin-top: 10px;
     padding: 4px 6px;
     text-align: center;
@@ -503,7 +531,7 @@ audio {
     letter-spacing: 1px;
     color: #9FA8DA;
 }
-.effects2:hover {
+.effects1:hover {
     display: inline-block;
     float: left;
     background-color: #9FA8DA;

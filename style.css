@@ -26,7 +26,6 @@ div.wrap {
     height:40px;
 }
 #canvas {
-    width: 100%;
     padding: 0;
     margin-left:auto;
     display: block;

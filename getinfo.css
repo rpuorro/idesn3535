@@ -57,18 +57,18 @@ body {
 
     display: inline-block;
     float:right;
-    padding: 0 70px 50px 30px;
-    margin-right: 25px;
-    margin-bottom: 20px;
+    padding: 0 70px 0 30px;
+    margin-right:0;
     width: 25%;
-    height:500px;
-    background-color: #000000;
+    height:670px;
+    background-color: #ffffff;
+
 
 }
 
 
 h3 {
-    font-family: 'roboto slab', serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.7em;
     font-weight: 400;
@@ -82,24 +82,24 @@ p {
     font-weight:200;
     line-height:1.6em;
     font-size:14px;
-    color:#B0BEC5;
+    color:#5E7398;
 }
 
 
 h2 {
-    font-family: 'roboto slab', serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.7em;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #9175B5;
+    color: #880e4f;
 }
 h5 {
-    font-family: 'roboto slab', serif;
-    font-weight:400;
+    font-family: 'Raleway',sans-serif;
+    font-weight:800;
     line-height:1.6em;
     font-size:22px;
     padding:0;
     margin:6px 0 6px 0 ;
-    color:#9175B5;
+    color:#880e4f;
 }

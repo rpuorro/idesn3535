@@ -13,7 +13,7 @@ function init() {
     createjs.Sound.registerSound("thunderr.m4a");
     createjs.Sound.registerSound("jungle.m4a");
 
-createjs.Touch.enable(stage);
+    createjs.Touch.enable(stage);
 
 
     document.getElementById("dl").addEventListener('click', dlCanvas, false);
@@ -872,8 +872,8 @@ function fourteenthHandle(event) {
 
 }function sixtyeigthHandle(event) {
     event.target.alpha = (event.type == "click");
-    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
-    createjs.Sound.play("daniel-desimon-&-ayami-okamura_percussion-loop-4_percussion_loop_85.wav.wav", ppc);
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 10, volume: 1});
+    createjs.Sound.play("Drummer beat.wav", ppc);
     createjs.Sound.sound.play(ppc);
 
 }function sixtynineHandle(event) {
@@ -889,7 +889,7 @@ function fourteenthHandle(event) {
 }function seventyoneHandle(event) {
     event.target.alpha = (event.type == "click");
     var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
-    createjs.Sound.play("thunderr.m4a", ppc);
+    createjs.Sound.play("Soft Crunchy D2.wav", ppc);
     createjs.Sound.sound.play(ppc);
 }function seventytwoHandle(event) {
     event.target.alpha = (event.type == "click");

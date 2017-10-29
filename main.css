@@ -1,6 +1,6 @@
 
 body {
-    background-color: #000000;
+    background-color: #263238;
 }
 
 #logo {
@@ -9,7 +9,7 @@ body {
     position: fixed;
     width: 800px;
     top: 3%;
-    left: 20%;
+    left: 4%;
 
 }
 

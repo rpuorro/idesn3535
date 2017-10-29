@@ -1,6 +1,7 @@
 var canvas = document.getElementById('canvas');
 var context = canvas.getContext('2d');
 var stage;
+
 function init() {
     stage = new createjs.Stage("canvas");
     stage.enableMouseOver(10);
@@ -12,7 +13,7 @@ function init() {
     createjs.Sound.registerSound("thunderr.m4a");
     createjs.Sound.registerSound("jungle.m4a");
 
-    createjs.Touch.enable(stage);
+createjs.Touch.enable(stage);
 
 
     document.getElementById("dl").addEventListener('click', dlCanvas, false);
@@ -371,10 +372,10 @@ function init() {
     label66.y = 625;
     label66.alpha = .2;
 
-    var label67 = new createjs.Text("percussion", "20px raleway", "#989fa8");
-    label67.x = 800;
-    label67.y = 770;
-    label67.alpha = 1;
+    // var label67 = new createjs.Text("percussion", "20px raleway", "#989fa8");
+    // label67.x = 800;
+    // label67.y = 770;
+    // label67.alpha = 1;
 
 
 
@@ -446,7 +447,6 @@ function init() {
     label64.on("mousedown", sixtyfourHandle);
     label65.on("mousedown", sixtyfiveHandle);
     label66.on("mousedown", sixtysixHandle);
-    label67.on("click", sixtysevenHandle);
 
 
 
@@ -516,11 +516,10 @@ function init() {
     label64.on("mouseout", sixtyfourHandle);
     label65.on("mouseout", sixtyfiveHandle);
     label66.on("mouseout", sixtysixHandle);
-    label67.on("click", sixtysevenHandle);
 
 
 
-    stage.addChild(label1,label2,label3, label4, label5, label6, label7, label8, label9, label10, label11, label12, label13, label14, label15, label16, label17, label18, label19, label20, label21, label22, label23, label24, label25, label26, label27, label28, label29, label30,label31, label32, label33, label34, label35, label36, label37, label38, label39, label40, label41,label42 ,label43 , label44, label45, label46,label47 ,label48 ,label49 ,label50 ,label51,label52 ,label53 ,label54, label55,  label56,label57, label58, label59, label60, label61, label62,label63, label64, label65, label66, label67);
+    stage.addChild(label1,label2,label3, label4, label5, label6, label7, label8, label9, label10, label11, label12, label13, label14, label15, label16, label17, label18, label19, label20, label21, label22, label23, label24, label25, label26, label27, label28, label29, label30,label31, label32, label33, label34, label35, label36, label37, label38, label39, label40, label41,label42 ,label43 , label44, label45, label46,label47 ,label48 ,label49 ,label50 ,label51,label52 ,label53 ,label54, label55,  label56,label57, label58, label59, label60, label61, label62,label63, label64, label65, label66);
     stage.update();
     createjs.Ticker.addEventListener("tick");
 }
@@ -529,10 +528,9 @@ var audio = document.createElement('audio');
 
 function handleInteraction(event) {
     event.target.alpha = (event.type == "mouseover")? 1 : 0.5;
+
     var audio = new Audio('piano2.wav');
     audio.play();
-
-    //document.getElementById("canvas").style.background = "#40444f";
 
 
 }
@@ -871,16 +869,11 @@ function fourteenthHandle(event) {
     event.target.alpha = (event.type == "mouseover") ? 1 : 0.5;
     var audio = new Audio('low2piano.wav');
     audio.play();
-}function sixtysevenHandle(event) {
-    event.target.alpha = (event.type == "click");
-    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
-    createjs.Sound.play("NM Dubstep Bomb 8bts 66bpm.wav", ppc);
-    createjs.Sound.sound.play(ppc);
 
 }function sixtyeigthHandle(event) {
     event.target.alpha = (event.type == "click");
-    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 10, volume: 1});
-    createjs.Sound.play("Drummer beat.wav", ppc);
+    var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
+    createjs.Sound.play("daniel-desimon-&-ayami-okamura_percussion-loop-4_percussion_loop_85.wav.wav", ppc);
     createjs.Sound.sound.play(ppc);
 
 }function sixtynineHandle(event) {
@@ -896,7 +889,7 @@ function fourteenthHandle(event) {
 }function seventyoneHandle(event) {
     event.target.alpha = (event.type == "click");
     var ppc = new createjs.PlayPropsConfig().set({interrupt: createjs.Sound.INTERRUPT_NONE, loop: 20, volume: 1});
-    createjs.Sound.play("Soft Crunchy D2.wav", ppc);
+    createjs.Sound.play("thunderr.m4a", ppc);
     createjs.Sound.sound.play(ppc);
 }function seventytwoHandle(event) {
     event.target.alpha = (event.type == "click");
